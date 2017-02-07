@@ -1,32 +1,26 @@
-<?php include 'includes/header.php'; ?>
+<?php
+  include 'includes/header.php';
+  include 'includes/report-card.php';
+  include 'includes/support.php'; ?>
 
+
+  <div class="container">
     <h1>Hello, world!</h1>
     <p>Testing testing testing</p>
 
-
-    <!-- Button trigger modal -->
-    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
-      Launch demo modal
-    </button>
-
-    <!-- Modal -->
-    <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-      <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-            <h4 class="modal-title" id="myModalLabel">Modal title</h4>
-          </div>
-          <div class="modal-body">
-            ...
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-            <button type="button" class="btn btn-primary">Save changes</button>
-          </div>
-        </div>
+    <!-- Stats -->
+    <div class="row">
+      <div class="col-md-4">
+        1 - INR Reading
+      </div>
+      <div class="col-md-4">
+        2 - Next appointment
+      </div>
+      <div class="col-md-4">
+        3 - Weekly dosage
       </div>
     </div>
 
+  </div><!-- /container -->
 
-    <?php include 'includes/footer.php'; ?>
+<?php include 'includes/footer.php'; ?>

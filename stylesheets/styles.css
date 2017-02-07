@@ -5,6 +5,7 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+@import url("https://fonts.googleapis.com/css?family=Varela+Round");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5806,5 +5807,8 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+body {
+  font-family: 'Varela Round', sans-serif;
+  padding-top: 70px; }
 
 /*# sourceMappingURL=styles.css.map */
