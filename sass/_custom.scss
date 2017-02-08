@@ -10,3 +10,21 @@ body {
   bottom: 5px;
   right: 5px;
 }
+.user {
+  padding: 5px !important;
+
+  p.username {
+    margin: 10px 5px;
+    float: left;
+  }
+}
+.user:before {
+  content: '';
+  background: url('../assets/images/avatar.jpg') 0 0 no-repeat;
+  background-size: 40px;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  float: left;
+  display: block;
+}

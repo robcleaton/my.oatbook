@@ -11,13 +11,7 @@
           <li><a href="/">Home</a></li>
           <li><a href="about.php">About</a></li>
           <li><a href="community.php">Community</a></li>
-          <li><a href="support.php">Support</a></li>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#supportModal">
-              Support modal
-            </button>
-          </li>
+          <li><a href="support.php" data-toggle="modal" data-target="#supportModal">Support</a></li>
         </ul>
 
         <ul class="list-inline social">

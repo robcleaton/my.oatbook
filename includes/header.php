@@ -7,6 +7,7 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <title>My OATBook | <?php echo $pageTitle; ?></title>
 
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
     <!-- Bootstrap -->
     <link href="stylesheets/styles.css" rel="stylesheet">
 
@@ -34,16 +35,11 @@
       <!-- Collect the nav links, forms, and other content for toggling -->
       <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
         <ul class="nav navbar-nav">
+          <li><a href="#/" class="user"><p class="username">Rob Cleaton</p></a></li>
           <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Community</a></li>
-          <li><a href="#">Support</a></li>
-          <li>
-            <!-- Button trigger modal -->
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#supportModal">
-              Support modal
-            </button>
-          </li>
+          <li><a href="about.php">About</a></li>
+          <li><a href="community.php">Community</a></li>
+          <li><a href="#" data-toggle="modal" data-target="#supportModal">Support</a></li>
         </ul>
 
         <ul class="nav navbar-nav navbar-right">
