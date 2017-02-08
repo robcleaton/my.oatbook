@@ -5809,7 +5809,7 @@ button.close {
     display: none !important; } }
 body {
   font-family: 'Varela Round', sans-serif;
-  padding-top: 70px; }
+  padding-top: 50px; }
 
 .feedback {
   position: fixed;

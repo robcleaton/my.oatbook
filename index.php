@@ -20,17 +20,17 @@ $pageTitle = "Home";
 
       <!-- Previous reading -->
       <div class="col-md-4">
-        <h2>2.9</h2>
-        <h3>Previous INR</h3>
-        <p class="date">Tue 21st Feb</p></p>
+        <h2 class="text-center">2.9</h2>
+        <h3 class="text-center">Previous INR</h3>
+        <p class="text-center">Tue 21st Feb</p></p>
       </div>
 
       <!-- Next appointment -->
       <div class="col-md-4">
-        <span class="dateLarge">19<small>th</small></span>
+        <h2 class="text-center">19<small>th</small></h2>
         <span class="month">Mar</span>
-        <h3>Next appointment</h3>
-        <p class="date">Fri 7:00am</p>
+        <h3 class="text-center">Next appointment</h3>
+        <p class="text-center date">Fri 7:00am</p>
       </div>
 
       <!-- Weekly dosages -->
@@ -44,8 +44,8 @@ $pageTitle = "Home";
           <li><span class="dose"></span><label>Sa</label></li>
           <li><span class="dose"></span><label>Su</label></li>
         </ul>
-        <h3>Next appointment</h3>
-        <p class="date">wc Mon 19 Feb</p>
+        <h3 class="text-center">Next appointment</h3>
+        <p class="text-center date">wc Mon 19 Feb</p>
       </div>
 
     </div><!-- /stats -->
