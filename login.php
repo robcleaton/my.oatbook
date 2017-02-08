@@ -1,11 +1,13 @@
 <?php
 $pageTitle = "Login";
-
-include 'includes/header.php'; ?>
+  include 'includes/header.php'; ?>
 
 <style>
   body {
     background: rgba(255, 215, 58, 0.71);
+  }
+  .navbar, footer {
+    display: none;
   }
 </style>
 
