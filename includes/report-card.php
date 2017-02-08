@@ -26,7 +26,7 @@
             </div>
 
             <!-- Next appointment -->
-            <div class="col-md-6">
+            <div class="col-md-5">
               <h2 class="text-center">19<span class="month">Mar</span></h2>
               <h3 class="text-center">Next appointment</h3>
               <p class="text-center date">Fri 7:00am</p>
@@ -35,13 +35,13 @@
             <!-- Weekly dosages -->
             <div class="col-md-10 col-sm-offset-1">
               <ul class="list-inline weeklyDosages">
-                <li><span class="dose"></span><label>Mo</label></li>
-                <li><span class="dose"></span><label>Tu</label></li>
-                <li><span class="dose"></span><label>We</label></li>
-                <li><span class="dose"></span><label>Th</label></li>
-                <li><span class="dose"></span><label>Fr</label></li>
-                <li><span class="dose"></span><label>Sa</label></li>
-                <li><span class="dose"></span><label>Su</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Mo</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Tu</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>We</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Th</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Fr</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Sa</label></li>
+                <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Su</label></li>
               </ul>
               <p class="text-center date">wc Mon 19 Feb</p>
             </div>

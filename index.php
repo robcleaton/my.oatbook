@@ -34,13 +34,13 @@ $pageTitle = "Home";
       <!-- Weekly dosages -->
       <div class="col-md-4">
         <ul class="list-inline weeklyDosages">
-          <li><span class="dose"></span><label>Mo</label></li>
-          <li><span class="dose"></span><label>Tu</label></li>
-          <li><span class="dose"></span><label>We</label></li>
-          <li><span class="dose"></span><label>Th</label></li>
-          <li><span class="dose"></span><label>Fr</label></li>
-          <li><span class="dose"></span><label>Sa</label></li>
-          <li><span class="dose"></span><label>Su</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Mo</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Tu</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>We</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Th</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Fr</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Sa</label></li>
+          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Su</label></li>
         </ul>
         <p class="text-center date">wc Mon 19 Feb</p>
       </div>

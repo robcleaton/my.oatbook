@@ -5816,6 +5816,9 @@ body {
   bottom: 5px;
   right: 5px; }
 
+.navbar-brand {
+  font-size: 14px; }
+
 .user {
   padding: 5px !important; }
   .user p.username {
@@ -5856,8 +5859,5 @@ body {
     margin-top: 2px; }
 .stats .weeklyDosages li:first-child {
   margin-left: 0%; }
-
-#report-card .graph {
-  background: red; }
 
 /*# sourceMappingURL=styles.css.map */
