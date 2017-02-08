@@ -39,5 +39,8 @@
 
 } // Stats
 
-#report-card {
+#reportCardModal {
+  .weeklyDosages li .dose {
+    height: 200px;
+  }
 }

@@ -11,18 +11,18 @@ $pageTitle = "Community";
     <div class="row">
 
       <!-- Message block -->
-      <div class="col-md-4">
-        1
+      <div class="col-md-12">
+        <h3><a href="#">Living with warfarin</a></h3>
       </div>
 
       <!-- Message block -->
-      <div class="col-md-4">
-        2
+      <div class="col-md-12">
+        <h3><a href="#">Eating your greens</a></h3>
       </div>
 
       <!-- Message block -->
-      <div class="col-md-4">
-        3
+      <div class="col-md-12">
+        <h3><a href="#">Another post</a></h3>
       </div>
 
     </div>

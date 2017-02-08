@@ -8,6 +8,19 @@
       </div>
       <div class="modal-body">
 
+          <button class="btn btn-default" type="submit">Get shareable link</button>
+
+          <table class="table table-hover">
+            <tr>
+              <td>Rob Cleaton</td>
+              <td>DOB - 19/03/1900</td>
+            </tr>
+            <tr>
+              <td>Warfarin</td>
+              <td>2.5 - 3.5</td>
+            </tr>
+          </table>
+
           <!-- Graph -->
           <div class="jumbotron">
             <div class="container">

@@ -5860,4 +5860,7 @@ body {
 .stats .weeklyDosages li:first-child {
   margin-left: 0%; }
 
+#reportCardModal .weeklyDosages li .dose {
+  height: 200px; }
+
 /*# sourceMappingURL=styles.css.map */
