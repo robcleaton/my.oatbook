@@ -1,6 +1,6 @@
 
   <div class="feedback">
-    Give us your <a href="mailto:support@oatbook.co.uk?subject=My OATBook support">feedback</a>
+    Give us your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a>
   </div>
 
   <footer class="container-fluid">
@@ -27,6 +27,6 @@
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="../javascripts/bootstrap.min.js"></script>
+    <script src="../assets/javascripts/bootstrap.min.js"></script>
 </body>
 </html>

@@ -1,11 +1,9 @@
 // Import custom Bootstrap variables
 @import "customVariables";
 
-// Import custom Bootstrap variables
-@import "bootstrap-variables";
-
 // Import Bootstrap styles
 @import "../assets/stylesheets/bootstrap";
 
 // Import custom styles
 @import "custom";
+@import "stats";

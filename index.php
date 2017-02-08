@@ -14,21 +14,19 @@ $pageTitle = "Home";
 
 
   <div class="container">
-    <h1 class="center-block">Hello, world!</h1>
     <!-- Stats -->
-    <div class="row">
+    <div class="row stats">
 
       <!-- Previous reading -->
       <div class="col-md-4">
         <h2 class="text-center">2.9</h2>
         <h3 class="text-center">Previous INR</h3>
-        <p class="text-center">Tue 21st Feb</p></p>
+        <p class="text-center date">Tue 21st Feb</p></p>
       </div>
 
       <!-- Next appointment -->
       <div class="col-md-4">
-        <h2 class="text-center">19<small>th</small></h2>
-        <span class="month">Mar</span>
+        <h2 class="text-center">19<span class="month">Mar</span></h2>
         <h3 class="text-center">Next appointment</h3>
         <p class="text-center date">Fri 7:00am</p>
       </div>
@@ -44,7 +42,6 @@ $pageTitle = "Home";
           <li><span class="dose"></span><label>Sa</label></li>
           <li><span class="dose"></span><label>Su</label></li>
         </ul>
-        <h3 class="text-center">Next appointment</h3>
         <p class="text-center date">wc Mon 19 Feb</p>
       </div>
 

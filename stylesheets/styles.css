@@ -5832,4 +5832,32 @@ body {
   float: left;
   display: block; }
 
+.stats h2 {
+  font-size: 68px; }
+.stats p.date {
+  font-size: 16px;
+  color: grey; }
+.stats .month {
+  font-size: 32px; }
+.stats .weeklyDosages li {
+  width: 11%;
+  padding: 0px;
+  margin: 0px;
+  margin-left: 2.4%; }
+  .stats .weeklyDosages li .dose {
+    background: #ffd739;
+    border-radius: 4px;
+    height: 150px;
+    float: left;
+    width: 100%; }
+  .stats .weeklyDosages li label {
+    width: 100%;
+    text-align: center;
+    margin-top: 2px; }
+.stats .weeklyDosages li:first-child {
+  margin-left: 0%; }
+
+#report-card .graph {
+  background: red; }
+
 /*# sourceMappingURL=styles.css.map */

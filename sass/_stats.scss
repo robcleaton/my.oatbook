@@ -1,0 +1,46 @@
+.stats {
+  h2 {
+    font-size: 68px;
+  }
+  p.date {
+    font-size: 16px;
+    color: grey;
+  }
+  .month {
+    font-size: 32px;
+  }
+
+
+  // Weekly dosages
+
+  .weeklyDosages li {
+    width: 11%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 2.4%;
+
+    .dose {
+      background: $oatbook;
+      border-radius: 4px;
+      height: 150px;
+      float: left;
+      width: 100%;
+    }
+
+    label {
+      width: 100%;
+      text-align: center;
+      margin-top: 2px;
+    }
+  }
+  .weeklyDosages li:first-child {
+    margin-left: 0%;
+  }
+
+} // Stats
+
+#report-card {
+  .graph {
+    background: red;
+  }
+}
