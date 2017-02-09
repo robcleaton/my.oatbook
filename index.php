@@ -18,21 +18,21 @@ $pageTitle = "Home";
     <div class="row stats">
 
       <!-- Previous reading -->
-      <div class="col-md-4">
-        <h2 class="text-center">2.9</h2>
+      <div class="col-md-4 previousRead">
+        <h2 class="text-center"><span class="ico"></span>2.9</h2>
         <h3 class="text-center">Previous INR</h3>
         <p class="text-center date">Tue 21st Jan</p></p>
       </div>
 
       <!-- Next appointment -->
-      <div class="col-md-4">
-        <h2 class="text-center">19<span class="month">Mar</span></h2>
+      <div class="col-md-3 nextApp">
+        <h2 class="text-center"><span class="ico"></span>19<span class="month">Mar</span></h2>
         <h3 class="text-center">Next appointment</h3>
         <p class="text-center date">Fri 7:00am</p>
       </div>
 
       <!-- Weekly dosages -->
-      <div class="col-md-4">
+      <div class="col-md-4 col-md-offset-1 dosages">
         <ul class="list-inline weeklyDosages">
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Mo</label></li>
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Tu</label></li>

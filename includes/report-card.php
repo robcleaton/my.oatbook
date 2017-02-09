@@ -32,15 +32,15 @@
           <div class="row stats">
 
             <!-- Previous reading -->
-            <div class="col-md-6">
-              <h2 class="text-center">2.9</h2>
+            <div class="col-md-6 previousRead">
+              <h2 class="text-center"><span class="ico"></span>2.9</h2>
               <h3 class="text-center">Previous INR</h3>
               <p class="text-center date">Tue 21st Feb</p></p>
             </div>
 
             <!-- Next appointment -->
-            <div class="col-md-5">
-              <h2 class="text-center">19<span class="month">Mar</span></h2>
+            <div class="col-md-5 nextApp">
+              <h2 class="text-center"><span class="ico"></span>19<span class="month">Mar</span></h2>
               <h3 class="text-center">Next appointment</h3>
               <p class="text-center date">Fri 7:00am</p>
             </div>

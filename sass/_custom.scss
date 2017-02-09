@@ -1,14 +1,28 @@
 // Import Google font
 @import url('https://fonts.googleapis.com/css?family=Varela+Round');
 
+@font-face {
+  font-family: 'Populaire';
+  src:  url('../assets/fonts/Populaire.otf'),
+}
+
+$populaire : 'Populaire', sans-serif;
+$oatbook : #ffd739;
+$oatbook-light : #fffef2;
+$oatbook-highlight : #FFB906;
+$red : #E36539;
+
+::selection {
+  background-color: $oatbook;
+}
+*:focus {
+  outline: 0 none !important;
+}
+
 body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px;
 }
-
-$oatbook : #ffd739;
-$red : #E36539;
-
 
 .feedback {
   position: fixed;
@@ -17,15 +31,40 @@ $red : #E36539;
 }
 
 .navbar {
+  .dropdown {
+    margin-left: -15px;
+  }
+  .dropdown:hover {
+    background-color: $oatbook;
+  }
+  h1.oatbook-logo {
+    background: $oatbook;
+    position: absolute;
+    width: 55px;
+    height: 55px;
+    left: 50%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: -25px;
+  }
   .user {
+    a {
+      color: black;
+    }
     p.username {
-      margin: 10px 5px;
+      margin: 8px 5px;
       float: left;
     }
+
     .caret {
       margin-top: 16px;
     }
   }
+  .reportCard {
+    margin: 10px;
+  }
+}
   .user:before {
     content: '';
     background: url('../assets/images/avatar.jpg') 0 0 no-repeat;
@@ -36,10 +75,8 @@ $red : #E36539;
     float: left;
     display: block;
   }
-  .reportCard {
-    margin: 10px;
-  }
-}
+
+
 
 
 // Post Blocks

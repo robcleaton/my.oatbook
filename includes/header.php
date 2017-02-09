@@ -51,6 +51,7 @@
           <li><a href="community.php">Community</a></li>
           <li><a href="#" data-toggle="modal" data-target="#supportModal">Support</a></li>
         </ul>
+        <h1 class="oatbook-logo">OATBook</h1>
 
         <ul class="nav navbar-nav navbar-right">
           <li>

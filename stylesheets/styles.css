@@ -5807,6 +5807,15 @@ button.close {
 @media print {
   .hidden-print {
     display: none !important; } }
+@font-face {
+  font-family: 'Populaire';
+  src: url("../assets/fonts/Populaire.otf"); }
+::selection {
+  background-color: #ffd739; }
+
+*:focus {
+  outline: 0 none !important; }
+
 body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
@@ -5816,12 +5825,31 @@ body {
   bottom: 5px;
   right: 5px; }
 
+.navbar .dropdown {
+  margin-left: -15px; }
+.navbar .dropdown:hover {
+  background-color: #ffd739; }
+.navbar h1.oatbook-logo {
+  background: #ffd739;
+  position: absolute;
+  width: 55px;
+  height: 55px;
+  left: 50%;
+  top: 0;
+  margin: 0;
+  padding: 0;
+  margin-left: -25px; }
+.navbar .user a {
+  color: black; }
 .navbar .user p.username {
-  margin: 10px 5px;
+  margin: 8px 5px;
   float: left; }
 .navbar .user .caret {
   margin-top: 16px; }
-.navbar .user:before {
+.navbar .reportCard {
+  margin: 10px; }
+
+.user:before {
   content: '';
   background: url("../assets/images/avatar.jpg") 0 0 no-repeat;
   background-size: 40px;
@@ -5830,8 +5858,6 @@ body {
   border-radius: 20px;
   float: left;
   display: block; }
-.navbar .reportCard {
-  margin: 10px; }
 
 .postBlock {
   border-bottom: 1px solid #eeeeee;
@@ -5852,6 +5878,20 @@ body {
   color: grey; }
 .stats .month {
   font-size: 32px; }
+.stats h2 span.ico {
+  display: inline-block;
+  margin-left: -20px;
+  margin-right: 2px;
+  content: '';
+  width: 20px; }
+.stats .previousRead h2 span.ico {
+  background: url("../assets/images/icons/icon-INR.svg") 0 0 no-repeat;
+  background-size: 20px;
+  height: 28px; }
+.stats .nextApp h2 span.ico {
+  background: url("../assets/images/icons/icon-nextApp.svg") 0 0 no-repeat;
+  background-size: 20px;
+  height: 20px; }
 .stats .weeklyDosages li {
   width: 11%;
   padding: 0px;
@@ -5860,9 +5900,11 @@ body {
   .stats .weeklyDosages li .dose {
     background: #ffd739;
     border-radius: 4px;
-    height: 150px;
+    height: 180px;
     float: left;
     width: 100%; }
+  .stats .weeklyDosages li .dose:hover {
+    background: #FFB906; }
   .stats .weeklyDosages li label {
     width: 100%;
     text-align: center;
@@ -5889,7 +5931,8 @@ table {
   table .missed {
     font-size: 30px; }
     table .missed .dose {
-      float: right; }
+      float: right;
+      color: #333333; }
     table .missed .dose:after {
       content: 'mg';
       font-size: 20px; }
@@ -5902,5 +5945,8 @@ table {
     height: 20px;
     width: 20px;
     float: right; }
+
+.table-hover tr:hover {
+  background-color: #fef0ba !important; }
 
 /*# sourceMappingURL=styles.css.map */
