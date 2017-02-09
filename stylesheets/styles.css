@@ -5820,7 +5820,7 @@ body {
   font-size: 14px; }
 
 .user {
-  padding: 5px !important; }
+  padding: 5px; }
   .user p.username {
     margin: 10px 5px;
     float: left; }
@@ -5834,6 +5834,21 @@ body {
   border-radius: 20px;
   float: left;
   display: block; }
+
+.navbar button {
+  margin: 8px 10px 0px 10px; }
+
+.postBlock {
+  border-bottom: 1px solid #eeeeee;
+  padding: 20px 0px; }
+  .postBlock p {
+    color: #777777; }
+  .postBlock .user {
+    padding-top: 20px; }
+  .postBlock .count {
+    font-size: 40px;
+    line-height: 56px;
+    display: block; }
 
 .stats h2 {
   font-size: 68px; }

@@ -3,10 +3,10 @@
     Give us your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a>
   </div>
 
-  <footer class="container-fluid">
+  <footer class="container-fluid  m-t-5">
     <div class="row">
-      <div class="col-sm-6 col-sm-offset-3">
-        <h4 class="text-center">OATBook</h4>
+      <div class="center-block">
+        <h4 class="text-center mt-5">OATBook</h4>
         <ul class="list-inline text-center">
           <li><a href="/">Home</a></li>
           <li><a href="about.php">About</a></li>

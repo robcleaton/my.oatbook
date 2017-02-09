@@ -8,7 +8,7 @@
       </div>
       <div class="modal-body">
 
-          <button class="btn btn-default" type="submit">Get shareable link</button>
+          <button class="btn btn-default" type="submit">Share</button>
 
           <table class="table table-hover">
             <tr>

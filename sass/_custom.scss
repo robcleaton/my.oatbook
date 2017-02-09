@@ -18,7 +18,7 @@ $oatbook : #ffd739;
   font-size: 14px;
 }
 .user {
-  padding: 5px !important;
+  padding: 5px;
 
   p.username {
     margin: 10px 5px;
@@ -35,3 +35,26 @@ $oatbook : #ffd739;
   float: left;
   display: block;
 }
+.navbar button {
+  margin: 8px 10px 0px 10px;
+}
+
+// Post Blocks
+  .postBlock {
+    border-bottom: 1px solid $gray-lighter;
+    padding: 20px 0px;
+
+    p {
+      color: $gray-light;
+    }
+
+    .user {
+      padding-top: 20px;
+    }
+
+    .count {
+      font-size: 40px;
+      line-height: 56px;
+      display: block;
+    }
+  }
