@@ -1,6 +1,6 @@
 
   <div class="feedback">
-    Give us your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a>
+    We would love to hear your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a>
   </div>
 
   <footer class="container-fluid  m-t-5">
