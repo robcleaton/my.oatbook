@@ -22,7 +22,7 @@
           </table>
 
           <!-- Graph -->
-          <div class="jumbotron">
+          <div class="jumbotron graph">
             <div class="container">
               This is the graph area...
             </div>

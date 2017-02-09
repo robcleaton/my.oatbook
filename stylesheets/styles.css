@@ -253,8 +253,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5822,8 +5822,8 @@ body {
 
 .feedback {
   position: fixed;
-  bottom: 5px;
-  right: 5px; }
+  bottom: 8px;
+  right: 8px; }
 
 .navbar .dropdown {
   margin-left: -15px; }
@@ -5871,8 +5871,13 @@ body {
     line-height: 56px;
     display: block; }
 
+.graph {
+  height: 350px; }
+
 .stats h2 {
   font-size: 68px; }
+.stats h3 {
+  margin-top: 0px; }
 .stats p.date {
   font-size: 16px;
   color: grey; }
@@ -5912,6 +5917,8 @@ body {
 .stats .weeklyDosages li:first-child {
   margin-left: 0%; }
 
+#reportCardModal .graph {
+  height: 250px; }
 #reportCardModal .weeklyDosages li .dose {
   height: 200px; }
 

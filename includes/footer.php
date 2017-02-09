@@ -29,9 +29,16 @@
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="../assets/javascripts/bootstrap.min.js"></script>
     <script>
-    $(function () {
-      $('[data-toggle="tooltip"]').tooltip()
-    })
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
     </script>
+    <script>
+
+        $('#myAlert').on('closed.bs.alert', function () {
+      // do something…
+    })
+</script>
+
 </body>
 </html>

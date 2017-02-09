@@ -2,16 +2,15 @@
 $pageTitle = "Home";
   include 'includes/header.php';
   include 'includes/report-card.php';
-  include 'includes/support.php'; ?>
-
+  include 'includes/support.php';
+  include 'includes/welcome.php'; ?>
 
   <!-- Graph -->
-  <div class="jumbotron">
+  <div class="jumbotron graph">
     <div class="container">
       This is the graph area...
     </div>
   </div><!-- /jumbotron -->
-
 
   <div class="container">
     <!-- Stats -->
