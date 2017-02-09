@@ -30,8 +30,8 @@
           <span class="icon-bar"></span>
         </button>
         <div class="dropdown">
-          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <a href="/" class="navbar-brand user"><p class="username">Rob Cleaton</p></a>
+          <button class="btn btn-link dropdown-toggle user" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <a href="/"><p class="username">Rob Cleaton</p></a>
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -55,7 +55,7 @@
         <ul class="nav navbar-nav navbar-right">
           <li>
             <!-- Button trigger modal -->
-            <button type="button" class="btn btn-default" data-toggle="modal" data-target="#reportCardModal">
+            <button type="button" class="btn btn-default reportCard" data-toggle="modal" data-target="#reportCardModal">
               Report card
             </button>
           </li>

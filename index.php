@@ -21,7 +21,7 @@ $pageTitle = "Home";
       <div class="col-md-4">
         <h2 class="text-center">2.9</h2>
         <h3 class="text-center">Previous INR</h3>
-        <p class="text-center date">Tue 21st Feb</p></p>
+        <p class="text-center date">Tue 21st Jan</p></p>
       </div>
 
       <!-- Next appointment -->
@@ -46,6 +46,60 @@ $pageTitle = "Home";
       </div>
 
     </div><!-- /stats -->
+
+
+    <table class="table">
+      <h2>Since your last test</h2>
+
+      <!-- Table -->
+      <table class="table table-hover">
+        <tr>
+          <td><span class="date">20<sup>th</sup></span> <span class="month">Jan</span></td>
+          <td></td>
+          <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+        </tr>
+        <tr>
+          <td><span class="date">4<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td></td>
+          <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+        </tr>
+        <tr>
+          <td><span class="date">5<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Boozie evening</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">5<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Taking antibiotics</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">12<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Taking antibiotics</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">13<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Taking antibiotics</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">14<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Taking antibiotics</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">15<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td>Taking antibiotics</td>
+          <td></td>
+        </tr>
+        <tr>
+          <td><span class="date">20<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td></td>
+          <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+        </tr>
+      </table>
+
   </div><!-- /container -->
 
 <?php include 'includes/footer.php'; ?>

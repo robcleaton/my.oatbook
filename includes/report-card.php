@@ -64,44 +64,49 @@
           <!-- Table -->
           <table class="table table-hover">
             <tr>
-              <td>1st Feb</td>
+              <td><span class="date">20<sup>th</sup></span> <span class="month">Jan</span></td>
               <td></td>
-              <td>Missed dose 11mg</td>
+              <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
             </tr>
             <tr>
-              <td>4th Feb</td>
+              <td><span class="date">4<sup>th</sup></span> <span class="month">Feb</span></td>
               <td></td>
-              <td>Missed dose 11mg</td>
+              <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
             </tr>
             <tr>
-              <td>5th Feb</td>
+              <td><span class="date">5<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Boozie evening</td>
               <td></td>
             </tr>
             <tr>
-              <td>5th Feb</td>
+              <td><span class="date">5<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Taking antibiotics</td>
               <td></td>
             </tr>
             <tr>
-              <td>12th Feb</td>
+              <td><span class="date">12<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Taking antibiotics</td>
               <td></td>
             </tr>
             <tr>
-              <td>13th Feb</td>
+              <td><span class="date">13<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Taking antibiotics</td>
               <td></td>
             </tr>
             <tr>
-              <td>14th Feb</td>
+              <td><span class="date">14<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Taking antibiotics</td>
               <td></td>
             </tr>
             <tr>
-              <td>15th Feb</td>
+              <td><span class="date">15<sup>th</sup></span> <span class="month">Feb</span></td>
               <td>Taking antibiotics</td>
               <td></td>
+            </tr>
+            <tr>
+              <td><span class="date">20<sup>th</sup></span> <span class="month">Feb</span></td>
+              <td></td>
+              <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
             </tr>
           </table>
 

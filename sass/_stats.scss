@@ -1,3 +1,6 @@
+
+
+// Stats
 .stats {
   h2 {
     font-size: 68px;
@@ -37,10 +40,55 @@
     margin-left: 0%;
   }
 
-} // Stats
+}
 
+
+// Report Card
 #reportCardModal {
   .weeklyDosages li .dose {
     height: 200px;
+  }
+}
+
+table {
+  font-size: 16px;
+  color: $gray-light;
+
+  td {
+  vertical-align: middle !important;
+  }
+  td:first-child {
+    max-width: 68px;
+  }
+
+  .date {
+    font-size: 30px;
+
+    sup {
+      font-size: 16px;
+    }
+  }
+  .month {
+    font-size: 20px;
+  }
+  .missed {
+    font-size: 30px;
+    .dose {
+      float: right;
+    }
+    .dose:after {
+      content: 'mg';
+      font-size: 20px;
+    }
+  }
+  .missed:after {
+    content: ' ';
+    background: url('../assets/images/icons/icon-missed.svg') 0 0 no-repeat;
+    display: block;
+    background-size: 20px;
+    margin-right: 2px;
+    height: 20px;
+    width: 20px;
+    float: right;
   }
 }

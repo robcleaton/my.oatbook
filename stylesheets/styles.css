@@ -5816,16 +5816,12 @@ body {
   bottom: 5px;
   right: 5px; }
 
-.navbar-brand {
-  font-size: 14px; }
-
-.user {
-  padding: 5px; }
-  .user p.username {
-    margin: 10px 5px;
-    float: left; }
-
-.user:before {
+.navbar .user p.username {
+  margin: 10px 5px;
+  float: left; }
+.navbar .user .caret {
+  margin-top: 16px; }
+.navbar .user:before {
   content: '';
   background: url("../assets/images/avatar.jpg") 0 0 no-repeat;
   background-size: 40px;
@@ -5834,9 +5830,8 @@ body {
   border-radius: 20px;
   float: left;
   display: block; }
-
-.navbar button {
-  margin: 8px 10px 0px 10px; }
+.navbar .reportCard {
+  margin: 10px; }
 
 .postBlock {
   border-bottom: 1px solid #eeeeee;
@@ -5877,5 +5872,35 @@ body {
 
 #reportCardModal .weeklyDosages li .dose {
   height: 200px; }
+
+table {
+  font-size: 16px;
+  color: #777777; }
+  table td {
+    vertical-align: middle !important; }
+  table td:first-child {
+    max-width: 68px; }
+  table .date {
+    font-size: 30px; }
+    table .date sup {
+      font-size: 16px; }
+  table .month {
+    font-size: 20px; }
+  table .missed {
+    font-size: 30px; }
+    table .missed .dose {
+      float: right; }
+    table .missed .dose:after {
+      content: 'mg';
+      font-size: 20px; }
+  table .missed:after {
+    content: ' ';
+    background: url("../assets/images/icons/icon-missed.svg") 0 0 no-repeat;
+    display: block;
+    background-size: 20px;
+    margin-right: 2px;
+    height: 20px;
+    width: 20px;
+    float: right; }
 
 /*# sourceMappingURL=styles.css.map */
