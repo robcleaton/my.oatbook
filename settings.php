@@ -2,97 +2,103 @@
 $pageTitle = "Settings";
   include 'includes/header.php';
   include 'includes/report-card.php';
-  include 'includes/support.php'; ?>
-
+  include 'includes/support.php';
+  include 'includes/emailNotifications.php';
+  ?>
 
   <div class="container">
-    <h1>Settings</h1>
     <table class="table">
-      <h2>Email alerts</h2>
+      <h1>Email alerts</h1>
+      <p class="lead">Stay up-to-date or keep your close ones informed.</p>
 
-      <h3>Appointments</h3>
-      <ul class="list-unstyled">
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              I have an upcoming appointment
-            </label>
-            <button type="button" class="btn btn-default btn-md">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
+      <!-- Appointments -->
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>I have an upcoming appointment</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
 
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              I missed an appointment
-            </label>
-            <button type="button" class="btn btn-default btn-md" style="clear:both;">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>I missed an appointment</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
 
-        <h3>Dosages</h3>
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              Daily dosage reminder
-            </label>
-            <button type="button" class="btn btn-default btn-md">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
+      <!-- Dosages -->
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>Daily dosage reminder</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
 
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              I missed a dosage
-            </label>
-            <button type="button" class="btn btn-default btn-md">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>I missed a dosage</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
 
-        <h3>Medication</h3>
-        <li>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              Medication is running low
-            </label>
-            <button type="button" class="btn btn-default btn-md">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
+      <!-- Medication -->
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>Medication is running low</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
 
-        <li>
-          <h3>Reports</h3>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" value="" checked>
-              I have an upcoming appointment
-            </label>
-            <button type="button" class="btn btn-default btn-md">
-              <span class="glyphicon glyphicon-remove" aria-hidden="true"></span> rob@oatbook.co.uk
-            </button>
-            <a href="">Add another email</a>
-          </div>
-        </li>
-      </ul>
+      <div class="row checkbox-block">
+        <div class="col-xs-12 checkbox">
+          <label>
+            <input type="checkbox" value="" checked>
+            <h4>Monthly health reports</h4>
+          </label>
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">
+            rob@oatbook.co.uk <span class="remove">&times;</span>
+          </button>
+          <button type="button" class="btn btn-link" data-toggle="modal" data-target="#addEmailModal">Add another email</button>
+        </div>
+      </div>
+
+      <button type="button" class="btn btn-primary">Save changes</button>
 
   </div><!-- /container -->
 

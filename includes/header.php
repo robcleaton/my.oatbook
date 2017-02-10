@@ -23,7 +23,7 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
-        <h1 class="oatbook-logo">OATBook</h1>
+        <a href="/"><h1 class="oatbook-logo">OATBook</h1></a>
 
         <!-- Burger menu -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
@@ -32,7 +32,7 @@
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        
+
         <div class="dropdown user">
           <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
             <a href="/"><p class="username hidden-xs hidden-sm">Rob Cleaton</p></a>

@@ -22,7 +22,6 @@
 
               <label for="yourMessage">Your message</label>
               <textarea class="form-control" rows="3"></textarea>
-              <button type="submit" class="btn btn-default">Submit</button>
             </form>
 
           </div>
