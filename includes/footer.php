@@ -1,12 +1,13 @@
 
   <div class="feedback">
-    We would love to hear your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a>
+    <p>We would love to hear your <a href="#" data-toggle="modal" data-target="#supportModal">feedback</a></p>
   </div>
 
-  <footer class="container-fluid  m-t-5">
+  <footer class="container-fluid">
     <div class="row">
       <div class="center-block">
-        <h4 class="text-center mt-5">OATBook</h4>
+        <h4 class="text-center">OATBook</h4>
+        <p class="text-center">&copy; 2017 OATBook</p>
         <ul class="list-inline text-center">
           <li><a href="/">Home</a></li>
           <li><a href="about.php">About</a></li>

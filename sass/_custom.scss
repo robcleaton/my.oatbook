@@ -26,8 +26,9 @@ body {
 
 .feedback {
   position: fixed;
-  bottom: 8px;
+  bottom: 0px;
   right: 8px;
+  color: $gray-light;
 }
 
 .navbar {
@@ -90,22 +91,41 @@ body {
 
 
 // Post Blocks
-  .postBlock {
+  .postBlock.list{
     border-bottom: 1px solid $gray-lighter;
     padding: 20px 0px;
-
     p {
       color: $gray-light;
     }
-
     .user {
       padding-top: 20px;
     }
-
     .count {
       font-size: 40px;
       line-height: 56px;
       display: block;
+    }
+  }
+
+  .postBlock .content {
+    .replies {
+      line-height: 16px;
+    }
+    p {
+      color: $gray-light;
+      line-height: 28px;
+      font-size: 16px;
+      margin-bottom: 20px;
+    }
+    .user:before {
+      content: '';
+      background: url('../assets/images/avatar.jpg') 0 0 no-repeat;
+      background-size: 60px;
+      height: 60px;
+      width: 60px;
+      border-radius: 40px;
+      margin-top: 20px;
+      margin-left: 20px;
     }
   }
 
@@ -137,3 +157,11 @@ body {
       color: $red;
     }
   }
+
+
+// Footer
+footer {
+  p {
+    color: $gray-light;
+  }
+}

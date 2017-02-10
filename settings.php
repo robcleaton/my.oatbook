@@ -14,9 +14,9 @@ $pageTitle = "Settings";
       <!-- Appointments -->
       <div class="row checkbox-block">
         <div class="col-xs-12 checkbox">
-          <label>
+          <label class="c-checkbox">
             <input type="checkbox" value="" checked>
-            <h4>I have an upcoming appointment</h4>
+            <h4 class="m-b-2">I have an upcoming appointment</h4>
           </label>
           <!-- Button trigger modal -->
           <button type="button" class="btn btn-default btn-md" data-toggle="modal" data-target="#removeEmailModal">

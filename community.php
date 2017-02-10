@@ -21,51 +21,60 @@ $pageTitle = "Community";
     </div>
 
     <!-- Post Block 1 -->
-    <div class="row postBlock">
-        <div class="col-sm-1">
-          <div class="user center-block"></div>
-        </div>
-
-        <div class="col-sm-10">
-          <h3><a href="#">Living with warfarin</a></h3>
-          <p>Rob Cleaton <span class="date">2 hours ago</span></p>
-        </div>
-
-        <div class="col-sm-1">
-          <p><span class="count">21</span>replies</p>
-        </div>
+    <div class="row postBlock list">
+      <div class="col-sm-1">
+        <div class="user center-block"></div>
+      </div>
+      <div class="col-sm-10">
+        <h3><a href="singlepost.php">Living with warfarin</a></h3>
+        <p>Rob Cleaton <span class="date">45 mins ago</span></p>
+      </div>
+      <div class="col-sm-1">
+        <p class="text-center"><span class="count">3</span>replies</p>
+      </div>
     </div>
 
     <!-- Post Block 2 -->
-    <div class="row postBlock">
-        <div class="col-sm-1">
-          <div class="user center-block"></div>
-        </div>
-
-        <div class="col-sm-10">
-          <h3><a href="#">Eating your greens</a></h3>
-          <p>Rob Cleaton <span class="date">2 hours ago</span></p>
-        </div>
-
-        <div class="col-sm-1">
-          <p><span class="count">21</span>replies</p>
-        </div>
+    <div class="row postBlock list">
+      <div class="col-sm-1">
+        <div class="user center-block"></div>
+      </div>
+      <div class="col-sm-10">
+        <h3><a href="singlepost.php">Eating your greens</a></h3>
+        <p>Rob Cleaton <span class="date">2 hours ago</span></p>
+      </div>
+      <div class="col-sm-1">
+        <p class="text-center"><span class="count">4</span>replies</p>
+      </div>
     </div>
 
     <!-- Post Block 3 -->
-    <div class="row postBlock">
-        <div class="col-sm-1">
-          <div class="user center-block"></div>
-        </div>
+    <div class="row postBlock list">
+      <div class="col-sm-1">
+        <div class="user center-block"></div>
+      </div>
 
-        <div class="col-sm-10">
-          <h3><a href="#">Setting medication reminders</a></h3>
-          <p>Rob Cleaton <span class="date">2 hours ago</span></p>
-        </div>
+      <div class="col-sm-10">
+        <h3><a href="singlepost.php">Setting medication reminders</a></h3>
+        <p>Rob Cleaton <span class="date">8 hours ago</span></p>
+      </div>
+      <div class="col-sm-1">
+        <p class="text-center"><span class="count">19</span>replies</p>
+      </div>
+    </div>
 
-        <div class="col-sm-1">
-          <p><span class="count">21</span>replies</p>
-        </div>
+    <!-- Post Block 3 -->
+    <div class="row postBlock list">
+      <div class="col-sm-1">
+        <div class="user center-block"></div>
+      </div>
+      <div class="col-sm-10">
+        <h3><a href="singlepost.php">New app feature ideas</a></h3>
+        <p>Rob Cleaton <span class="date">2 days ago</span></p>
+      </div>
+      <div class="col-sm-1">
+        <p class="text-center"><span class="count">8</span>replies</p>
+      </div>
     </div>
 
 

@@ -7,6 +7,7 @@ $pageTitle = "About";
 
   <div class="container">
     <h1>About</h1>
+    <h3>Include some FAQs</h3>
 
   </div><!-- /container -->
 
