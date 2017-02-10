@@ -11,8 +11,6 @@ $pageTitle = "My account";
         <h1>My account</h1>
 
         <table class="table">
-          <h2>My account</h2>
-
           <tr>
             <td>First Name</td>
             <td>Rob</td>

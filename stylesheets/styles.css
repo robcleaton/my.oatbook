@@ -254,7 +254,7 @@ th {
 @font-face {
   font-family: 'Glyphicons Halflings';
   src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5825,10 +5825,14 @@ body {
   bottom: 8px;
   right: 8px; }
 
-.navbar .dropdown {
-  margin-left: -15px; }
-.navbar .dropdown:hover {
+.navbar .dropdown.user {
+  margin-left: -15px;
+  padding: 6px 6px 8px 6px;
+  float: left; }
+.navbar .dropdown.user:hover {
   background-color: #ffd739; }
+  .navbar .dropdown.user:hover .caret {
+    color: #fff; }
 .navbar h1.oatbook-logo {
   background: #ffd739;
   position: absolute;
@@ -5839,13 +5843,16 @@ body {
   margin: 0;
   padding: 0;
   margin-left: -25px; }
+.navbar li a {
+  padding-top: 18px;
+  padding-bottom: 18px; }
 .navbar .user a {
   color: black; }
 .navbar .user p.username {
-  margin: 8px 5px;
+  margin: 5px 5px 0px 0px;
   float: left; }
 .navbar .user .caret {
-  margin-top: 16px; }
+  margin-top: 10px; }
 .navbar .reportCard {
   margin: 10px; }
 
@@ -5857,7 +5864,8 @@ body {
   width: 40px;
   border-radius: 20px;
   float: left;
-  display: block; }
+  display: block;
+  margin: 2px 0px 0px 4px; }
 
 .postBlock {
   border-bottom: 1px solid #eeeeee;
@@ -5955,5 +5963,9 @@ table {
 
 .table-hover tr:hover {
   background-color: #fef0ba !important; }
+
+@media (max-width: 767px) {
+  .navbar .dropdown.user {
+    margin-left: 0px; } }
 
 /*# sourceMappingURL=styles.css.map */

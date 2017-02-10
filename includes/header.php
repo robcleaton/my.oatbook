@@ -23,15 +23,19 @@
     <div class="container-fluid">
       <!-- Brand and toggle get grouped for better mobile display -->
       <div class="navbar-header">
+        <h1 class="oatbook-logo">OATBook</h1>
+
+        <!-- Burger menu -->
         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>
-        <div class="dropdown">
-          <button class="btn btn-link dropdown-toggle user" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <a href="/"><p class="username">Rob Cleaton</p></a>
+        
+        <div class="dropdown user">
+          <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+            <a href="/"><p class="username hidden-xs hidden-sm">Rob Cleaton</p></a>
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
@@ -51,7 +55,6 @@
           <li><a href="community.php">Community</a></li>
           <li><a href="#" data-toggle="modal" data-target="#supportModal">Support</a></li>
         </ul>
-        <h1 class="oatbook-logo">OATBook</h1>
 
         <ul class="nav navbar-nav navbar-right">
           <li>
