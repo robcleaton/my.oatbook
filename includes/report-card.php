@@ -107,11 +107,9 @@
             Share <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="#">Share private link</a></li>
+            <li><a href="#" data-toggle="modal" data-target="#shareEmailModal">Share private link</a></li>
             <li><a href="#">Email report</a></li>
             <li><a href="#">Download report</a></li>
-            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>
           </ul>
         </div>
       </div>

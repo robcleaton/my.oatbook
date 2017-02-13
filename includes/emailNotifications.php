@@ -32,12 +32,43 @@
             <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
           </div>
 
-          <p class="text-center">This email will not recieve any span outside of this notification</p>
+          <p class="text-center">This email will not recieve any spam outside of this notification</p>
         </form>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
         <button type="button" class="btn btn-primary">Add this email</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- Share via email -->
+<div class="modal fade" id="shareEmailModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog modal-md" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Adding an email</h4>
+      </div>
+      <div class="modal-body">
+
+        <p class="text-center"><a href="#">my.oatbook.co.uk/HiG120Xdpie34</a></p>
+
+        <form>
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+          </div>
+
+          <p class="text-center">This email will not recieve any spam outside of this notification</p>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Share</button>
       </div>
     </div>
   </div>

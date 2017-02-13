@@ -5826,13 +5826,18 @@ body {
   left: 0;
   width: 100%;
   z-index: 100; }
-
-.inner-msg {
-  max-width: 960px;
-  margin: 0 auto; }
-
-.alert {
-  margin: 0px 10px; }
+  .message h3 {
+    margin-top: 6px !important; }
+  .message .count {
+    font-size: 36px;
+    line-height: 42px;
+    display: block;
+    color: #333333; }
+  .message .inner-msg {
+    max-width: 960px;
+    margin: 0 auto; }
+  .message .alert {
+    margin: 0px 10px; }
 
 .feedback {
   position: fixed;
@@ -5845,13 +5850,16 @@ body {
   padding: 6px 6px 8px 6px;
   float: left; }
   .navbar .dropdown.user .caret {
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 8px solid #000000; }
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #000000; }
 .navbar .dropdown.user:hover {
   background-color: #ffd739; }
   .navbar .dropdown.user:hover .caret {
-    color: #fff !important; }
+    color: #fff !important;
+    border-top: 6px solid #fff; }
+  .navbar .dropdown.user:hover a {
+    color: #fff; }
 .navbar h1.oatbook-logo {
   background: #ffd739;
   position: absolute;
@@ -5977,6 +5985,10 @@ footer p {
     width: 100%; }
   .stats .weeklyDosages li .dose:hover {
     background: #FFB906; }
+  .stats .weeklyDosages li .dose.missed {
+    background: #E36539; }
+  .stats .weeklyDosages li .dose.missed:hover {
+    background: #c5471b; }
   .stats .weeklyDosages li label {
     width: 100%;
     text-align: center;
@@ -5986,8 +5998,18 @@ footer p {
 
 #reportCardModal .graph {
   height: 250px; }
+#reportCardModal .weeklyDosages {
+  margin-top: 40px; }
 #reportCardModal .weeklyDosages li .dose {
   height: 200px; }
+#reportCardModal .stats {
+  margin-bottom: 40px; }
+  #reportCardModal .stats h2 {
+    font-size: 52px; }
+  #reportCardModal .stats .month {
+    font-size: 24px; }
+  #reportCardModal .stats h3 {
+    font-size: 20px; }
 
 table {
   font-size: 16px;
@@ -6002,6 +6024,13 @@ table {
       font-size: 16px; }
   table .month {
     font-size: 20px; }
+  table .reading {
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: #333333; }
+    table .reading .dose {
+      float: right;
+      color: #333333; }
   table .missed {
     font-size: 30px;
     letter-spacing: -2px; }
@@ -6019,6 +6048,16 @@ table {
     display: block;
     background-size: 20px;
     margin-right: 2px;
+    height: 20px;
+    width: 20px;
+    float: right; }
+  table .reading:after {
+    content: ' ';
+    background: url("../assets/images/icons/icon-inr.svg") 0 0 no-repeat;
+    display: block;
+    background-size: 14px;
+    margin-right: 0px;
+    margin-top: 12px;
     height: 20px;
     width: 20px;
     float: right; }

@@ -3,7 +3,8 @@ $pageTitle = "Home";
   include 'includes/header.php';
   include 'includes/report-card.php';
   include 'includes/support.php';
-  include 'includes/welcome.php'; ?>
+  include 'includes/welcome.php';
+  include 'includes/emailNotifications.php'; ?>
 
   <!-- Graph -->
   <div class="jumbotron graph">
@@ -18,14 +19,14 @@ $pageTitle = "Home";
 
       <!-- Previous reading -->
       <div class="col-md-4 previousRead">
-        <h2 class="text-center"><span class="ico"></span>2.9</h2>
+        <h2 class="text-center"><span class="ico"></span>3.1</h2>
         <h3 class="text-center">Previous INR</h3>
-        <p class="text-center date">Tue 21st Jan</p></p>
+        <p class="text-center date">Thu 19th Jan</p></p>
       </div>
 
       <!-- Next appointment -->
       <div class="col-md-3 nextApp">
-        <h2 class="text-center"><span class="ico"></span>19<span class="month">Mar</span></h2>
+        <h2 class="text-center"><span class="ico"></span>17<span class="month">Mar</span></h2>
         <h3 class="text-center">Next appointment</h3>
         <p class="text-center date">Fri 7:00am</p>
       </div>
@@ -38,10 +39,10 @@ $pageTitle = "Home";
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>We</label></li>
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Th</label></li>
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Fr</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Sa</label></li>
+          <li><span class="dose missed" data-toggle="tooltip" title="8mg Missed"></span><label>Sa</label></li>
           <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Su</label></li>
         </ul>
-        <p class="text-center date">wc Mon 19 Feb</p>
+        <p class="text-center date">wc Mon 20 Feb</p>
       </div>
 
     </div><!-- /stats -->
@@ -70,7 +71,7 @@ $pageTitle = "Home";
         <tr>
           <td><span class="date">5<sup>th</sup></span> <span class="month">Feb</span></td>
           <td>Taking antibiotics</td>
-          <td></td>
+          <td class="text-right"><span class="reading"><span class="dose">2.5</span></span></td>
         </tr>
         <tr>
           <td><span class="date">12<sup>th</sup></span> <span class="month">Feb</span></td>
@@ -93,7 +94,7 @@ $pageTitle = "Home";
           <td></td>
         </tr>
         <tr>
-          <td><span class="date">20<sup>th</sup></span> <span class="month">Feb</span></td>
+          <td><span class="date">25<sup>th</sup></span> <span class="month">Feb</span></td>
           <td></td>
           <td class="text-right"><span class="missed"><span class="dose">8</span></span></td>
         </tr>

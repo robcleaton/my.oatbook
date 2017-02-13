@@ -7,7 +7,7 @@
         </button>
         <div class="row">
           <div class="col-md-2">
-            2 weeks in range
+            <p class="text-center"><span class="count">2</span> weeks in range</p>
           </div>
           <div class="col-md-9">
             <h3>Welcome back Rob!</h3>

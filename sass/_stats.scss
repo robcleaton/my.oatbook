@@ -62,6 +62,12 @@
     .dose:hover {
       background: $oatbook-highlight;
     }
+    .dose.missed {
+      background: $red;
+    }
+    .dose.missed:hover {
+      background: $red-darker;
+    }
 
     label {
       width: 100%;
@@ -81,8 +87,24 @@
   .graph {
     height: 250px;
   }
+  .weeklyDosages {
+    margin-top: 40px;
+  }
   .weeklyDosages li .dose {
     height: 200px;
+  }
+  .stats {
+    margin-bottom: 40px;
+
+    h2 {
+      font-size: 52px;
+    }
+    .month {
+      font-size: 24px;
+    }
+    h3 {
+      font-size: 20px;
+    }
   }
 }
 
@@ -106,6 +128,15 @@ table {
   .month {
     font-size: 20px;
   }
+  .reading {
+    font-size: 30px;
+    letter-spacing: -2px;
+    color: $gray-dark;
+    .dose {
+      float: right;
+      color: $gray-dark;
+    }
+  }
   .missed {
     font-size: 30px;
     letter-spacing: -2px;
@@ -126,6 +157,17 @@ table {
     display: block;
     background-size: 20px;
     margin-right: 2px;
+    height: 20px;
+    width: 20px;
+    float: right;
+  }
+  .reading:after {
+    content: ' ';
+    background: url('../assets/images/icons/icon-inr.svg') 0 0 no-repeat;
+    display: block;
+    background-size: 14px;
+    margin-right: 0px;
+    margin-top: 12px;
     height: 20px;
     width: 20px;
     float: right;
