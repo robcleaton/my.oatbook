@@ -5,7 +5,15 @@
         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-        <strong>Welcome!</strong> Best check yo self, you're not looking too good.
+        <div class="row">
+          <div class="col-md-2">
+            2 weeks in range
+          </div>
+          <div class="col-md-9">
+            <h3>Welcome back Rob!</h3>
+            <p>You're doing really well, you've been in your theraputic rage for 2 weeks now.</p>
+          </div>
+        </div>
       </div>
     </div>
   </div>

@@ -6,7 +6,13 @@ $pageTitle = "My account";
 
 
   <div class="container">
+    <div class="row">
+      <div class="col-xs-12">
+        Big yellow header
+      </div>
+    </div>
 
+    <div class="row">
       <div class="col-sm-10">
         <h1>My account</h1>
 
@@ -56,6 +62,7 @@ $pageTitle = "My account";
             <td>2.5 - 3.5</td>
           </tr>
         </table>
+      </div>
     </div>
   </div><!-- /container -->
 
