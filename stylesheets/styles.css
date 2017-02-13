@@ -5830,6 +5830,10 @@ body {
   margin-left: -15px;
   padding: 6px 6px 8px 6px;
   float: left; }
+  .navbar .dropdown.user .caret {
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #000000; }
 .navbar .dropdown.user:hover {
   background-color: #ffd739; }
   .navbar .dropdown.user:hover .caret {
