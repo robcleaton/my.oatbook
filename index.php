@@ -55,7 +55,7 @@ $pageTitle = "Home";
         <tr>
           <td><span class="date">20<sup>th</sup></span> <span class="month">Jan</span></td>
           <td></td>
-          <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+          <td class="text-right"><span class="missed"><span class="dose">12</span></span></td>
         </tr>
         <tr>
           <td><span class="date">4<sup>th</sup></span> <span class="month">Feb</span></td>
@@ -95,7 +95,7 @@ $pageTitle = "Home";
         <tr>
           <td><span class="date">20<sup>th</sup></span> <span class="month">Feb</span></td>
           <td></td>
-          <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+          <td class="text-right"><span class="missed"><span class="dose">8</span></span></td>
         </tr>
       </table>
 

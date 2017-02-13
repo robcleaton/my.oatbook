@@ -8,19 +8,6 @@
       </div>
       <div class="modal-body">
 
-          <button class="btn btn-default" type="submit">Share</button>
-
-          <table class="table table-hover">
-            <tr>
-              <td>Rob Cleaton</td>
-              <td>DOB - 19/03/1900</td>
-            </tr>
-            <tr>
-              <td>Warfarin</td>
-              <td>2.5 - 3.5</td>
-            </tr>
-          </table>
-
           <!-- Graph -->
           <div class="jumbotron graph">
             <div class="container">
@@ -66,7 +53,7 @@
             <tr>
               <td><span class="date">20<sup>th</sup></span> <span class="month">Jan</span></td>
               <td></td>
-              <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+              <td class="text-right"><span class="missed"><span class="dose">12</span></span></td>
             </tr>
             <tr>
               <td><span class="date">4<sup>th</sup></span> <span class="month">Feb</span></td>
@@ -106,14 +93,27 @@
             <tr>
               <td><span class="date">20<sup>th</sup></span> <span class="month">Feb</span></td>
               <td></td>
-              <td class="text-right"><span class="missed"><span class="dose">11</span></span></td>
+              <td class="text-right"><span class="missed"><span class="dose">8</span></span></td>
             </tr>
           </table>
 
       </div>
+
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+        <!-- Single button -->
+        <div class="btn-group dropup">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Share <span class="caret"></span>
+          </button>
+          <ul class="dropdown-menu">
+            <li><a href="#">Share private link</a></li>
+            <li><a href="#">Email report</a></li>
+            <li><a href="#">Download report</a></li>
+            <li role="separator" class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>

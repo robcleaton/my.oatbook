@@ -5820,6 +5820,20 @@ body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
+.message {
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  z-index: 100; }
+
+.inner-msg {
+  max-width: 960px;
+  margin: 0 auto; }
+
+.alert {
+  margin: 0px 10px; }
+
 .feedback {
   position: fixed;
   bottom: 0px;
@@ -5837,7 +5851,7 @@ body {
 .navbar .dropdown.user:hover {
   background-color: #ffd739; }
   .navbar .dropdown.user:hover .caret {
-    color: #fff; }
+    color: #fff !important; }
 .navbar h1.oatbook-logo {
   background: #ffd739;
   position: absolute;
@@ -5989,13 +6003,16 @@ table {
   table .month {
     font-size: 20px; }
   table .missed {
-    font-size: 30px; }
+    font-size: 30px;
+    letter-spacing: -2px; }
     table .missed .dose {
       float: right;
       color: #333333; }
     table .missed .dose:after {
       content: 'mg';
-      font-size: 20px; }
+      font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 2px; }
   table .missed:after {
     content: ' ';
     background: url("../assets/images/icons/icon-missed.svg") 0 0 no-repeat;

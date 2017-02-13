@@ -24,6 +24,23 @@ body {
   padding-top: 50px;
 }
 
+// Notification banner
+.message {
+  position: fixed;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+}
+.inner-msg {
+  max-width: 960px;
+  margin: 0 auto;
+}
+.alert {
+  margin: 0px 10px;
+}
+
+
 .feedback {
   position: fixed;
   bottom: 0px;
@@ -47,7 +64,7 @@ body {
   .dropdown.user:hover {
     background-color: $oatbook;
     .caret {
-      color: #fff;
+      color: #fff !important;
     }
   }
   h1.oatbook-logo {

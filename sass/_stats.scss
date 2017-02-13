@@ -108,6 +108,7 @@ table {
   }
   .missed {
     font-size: 30px;
+    letter-spacing: -2px;
     .dose {
       float: right;
       color: $gray-dark;
@@ -115,6 +116,8 @@ table {
     .dose:after {
       content: 'mg';
       font-size: 20px;
+      letter-spacing: 0px;
+      margin-left: 2px;
     }
   }
   .missed:after {
