@@ -33,17 +33,19 @@ $pageTitle = "Login";
   <div class="container">
 
     <div class="row vertical-center">
-      <div class="col-sm-6 col-sm-offset-3">
+      <div class="col-sm-4 col-sm-offset-4">
         <h1 class="text-center">OATBook</h1>
 
         <form action="/">
           <div class="form-group">
-            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+            <input type="email" class="form-control" id="inputEmail1" placeholder="Email">
           </div>
           <div class="form-group">
-            <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+            <input type="password" class="form-control" id="inputPassword1" placeholder="Password">
           </div>
-          <button type="submit" class="btn btn-default">Submit</button>
+          <div class="col-xs-12">
+            <button type="submit" class="btn btn-default">Login</button>
+          </div>
         </form>
       </div>
 

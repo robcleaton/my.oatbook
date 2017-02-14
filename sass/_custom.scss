@@ -24,6 +24,10 @@ body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px;
 }
+.btn {
+  border-radius: 18px;
+  padding: 8px 18px;
+}
 
 // Notification banner
 .message {
@@ -66,11 +70,31 @@ body {
     padding: 6px 6px 8px 6px;
     float: left;
 
+    .btn {
+      padding: 8px 10px;
+    }
     .caret {
       border-left: 6px solid transparent;
       border-right: 6px solid transparent;
       border-top: 6px solid #000000;
     }
+    a.myaccount {
+      background: url('../assets/images/icons/icon-myaccount.svg') 12px 17px no-repeat;
+      background-size: 20px;
+      padding-left: 44px;
+    }
+    a.settings {
+      background: url('../assets/images/icons/icon-setting.svg') 12px 17px no-repeat;
+      background-color: inherit;
+      background-size: 20px;
+      padding-left: 44px;
+      }
+    a.myaccount:hover, a.settings:hover {
+      background-color: red;
+      }
+  }
+  .nav > li > a:hover, .nav > li > a:focus {
+    background-color: $oatbook;
   }
 
   .dropdown.user:hover {
@@ -78,9 +102,6 @@ body {
     .caret {
       color: #fff !important;
       border-top: 6px solid #fff;
-    }
-    a {
-      color: #fff;
     }
   }
   h1.oatbook-logo {
@@ -93,6 +114,7 @@ body {
     margin: 0;
     padding: 0;
     margin-left: -25px;
+    text-indent: -100000px;
   }
   li a {
     padding-top: 18px;
@@ -198,6 +220,19 @@ body {
     }
   }
 
+
+// Login
+
+#inputEmail1 {
+  background: #fff url('../assets/images/icons/icon-INR.svg') 8px 8px no-repeat;
+  background-size: 12px;
+  padding-left: 25px;
+}
+#inputPassword1 {
+  background: #fff url('../assets/images/icons/icon-INR.svg') 8px 8px no-repeat;
+  background-size: 12px;
+  padding-left: 25px;
+}
 
 // Footer
 footer {

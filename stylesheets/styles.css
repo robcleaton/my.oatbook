@@ -5820,6 +5820,10 @@ body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
+.btn {
+  border-radius: 18px;
+  padding: 8px 18px; }
+
 .message {
   position: fixed;
   top: 65px;
@@ -5849,17 +5853,30 @@ body {
   margin-left: -15px;
   padding: 6px 6px 8px 6px;
   float: left; }
+  .navbar .dropdown.user .btn {
+    padding: 8px 10px; }
   .navbar .dropdown.user .caret {
     border-left: 6px solid transparent;
     border-right: 6px solid transparent;
     border-top: 6px solid #000000; }
+  .navbar .dropdown.user a.myaccount {
+    background: url("../assets/images/icons/icon-myaccount.svg") 12px 17px no-repeat;
+    background-size: 20px;
+    padding-left: 44px; }
+  .navbar .dropdown.user a.settings {
+    background: url("../assets/images/icons/icon-setting.svg") 12px 17px no-repeat;
+    background-color: inherit;
+    background-size: 20px;
+    padding-left: 44px; }
+  .navbar .dropdown.user a.myaccount:hover, .navbar .dropdown.user a.settings:hover {
+    background-color: red; }
+.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+  background-color: #ffd739; }
 .navbar .dropdown.user:hover {
   background-color: #ffd739; }
   .navbar .dropdown.user:hover .caret {
     color: #fff !important;
     border-top: 6px solid #fff; }
-  .navbar .dropdown.user:hover a {
-    color: #fff; }
 .navbar h1.oatbook-logo {
   background: #ffd739;
   position: absolute;
@@ -5869,7 +5886,8 @@ body {
   top: 0;
   margin: 0;
   padding: 0;
-  margin-left: -25px; }
+  margin-left: -25px;
+  text-indent: -100000px; }
 .navbar li a {
   padding-top: 18px;
   padding-bottom: 18px; }
@@ -5942,6 +5960,16 @@ body {
     margin-left: 20px; }
   .checkbox-block b {
     color: #E36539; }
+
+#inputEmail1 {
+  background: #fff url("../assets/images/icons/icon-INR.svg") 8px 8px no-repeat;
+  background-size: 12px;
+  padding-left: 25px; }
+
+#inputPassword1 {
+  background: #fff url("../assets/images/icons/icon-INR.svg") 8px 8px no-repeat;
+  background-size: 12px;
+  padding-left: 25px; }
 
 footer p {
   color: #777777; }
