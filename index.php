@@ -34,13 +34,13 @@ $pageTitle = "Home";
       <!-- Weekly dosages -->
       <div class="col-md-4 col-md-offset-1 dosages">
         <ul class="list-inline weeklyDosages">
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Mo</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Tu</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>We</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Th</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Fr</label></li>
-          <li><span class="dose missed" data-toggle="tooltip" title="8mg Missed"></span><label>Sa</label></li>
-          <li><span class="dose" data-toggle="tooltip" title="11mg"></span><label>Su</label></li>
+          <li><span class="dose h-100" data-toggle="tooltip" title="10mg"></span><label>Mo</label></li>
+          <li><span class="dose h-90" data-toggle="tooltip" title="8mg"></span><label>Tu</label></li>
+          <li><span class="dose h-100" data-toggle="tooltip" title="10mg"></span><label>We</label></li>
+          <li><span class="dose h-90" data-toggle="tooltip" title="8mg"></span><label>Th</label></li>
+          <li><span class="dose h-100" data-toggle="tooltip" title="10mg"></span><label>Fr</label></li>
+          <li><span class="dose missed h-90" data-toggle="tooltip" title="8mg Missed"></span><label>Sa</label></li>
+          <li><span class="dose h-100" data-toggle="tooltip" title="10mg"></span><label>Su</label></li>
         </ul>
         <p class="text-center date">wc Mon 20 Feb</p>
       </div>

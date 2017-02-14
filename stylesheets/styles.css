@@ -5972,36 +5972,45 @@ footer p {
   background: url("../assets/images/icons/icon-nextApp.svg") 0 0 no-repeat;
   background-size: 20px;
   height: 20px; }
-.stats .weeklyDosages li {
-  width: 11%;
-  padding: 0px;
-  margin: 0px;
-  margin-left: 2.4%; }
-  .stats .weeklyDosages li .dose {
-    background: #ffd739;
-    border-radius: 4px;
+.stats ul.weeklyDosages {
+  float: left;
+  width: 100%;
+  display: block;
+  margin-bottom: 24px; }
+  .stats ul.weeklyDosages li {
+    width: 11%;
+    padding: 0px;
+    margin: 0px;
+    margin-left: 3.1%;
     height: 180px;
-    float: left;
-    width: 100%; }
-  .stats .weeklyDosages li .dose:hover {
-    background: #FFB906; }
-  .stats .weeklyDosages li .dose.missed {
-    background: #E36539; }
-  .stats .weeklyDosages li .dose.missed:hover {
-    background: #c5471b; }
-  .stats .weeklyDosages li label {
-    width: 100%;
-    text-align: center;
-    margin-top: 2px; }
-.stats .weeklyDosages li:first-child {
-  margin-left: 0%; }
+    float: left; }
+    .stats ul.weeklyDosages li .dose {
+      background: #ffd739;
+      border-radius: 4px;
+      float: left;
+      width: 100%; }
+    .stats ul.weeklyDosages li .dose:hover {
+      background: #FFB906; }
+    .stats ul.weeklyDosages li .dose.missed {
+      background: #E36539; }
+    .stats ul.weeklyDosages li .dose.missed:hover {
+      background: #c5471b; }
+    .stats ul.weeklyDosages li .dose.h-100 {
+      height: 100%; }
+    .stats ul.weeklyDosages li .dose.h-90 {
+      height: 90%;
+      margin-top: 18px; }
+    .stats ul.weeklyDosages li label {
+      width: 100%;
+      text-align: center;
+      margin-top: 2px; }
+  .stats ul.weeklyDosages .weeklyDosages li:first-child {
+    margin-left: 0%; }
 
 #reportCardModal .graph {
   height: 250px; }
 #reportCardModal .weeklyDosages {
   margin-top: 40px; }
-#reportCardModal .weeklyDosages li .dose {
-  height: 200px; }
 #reportCardModal .stats {
   margin-bottom: 40px; }
   #reportCardModal .stats h2 {

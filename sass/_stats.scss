@@ -46,41 +46,54 @@
 
   // Weekly dosages
 
-  .weeklyDosages li {
-    width: 11%;
-    padding: 0px;
-    margin: 0px;
-    margin-left: 2.4%;
+  ul.weeklyDosages {
+    float: left;
+    width: 100%;
+    display: block;
+    margin-bottom: 24px;
 
-    .dose {
-      background: $oatbook;
-      border-radius: 4px;
+    li {
+      width: 11%;
+      padding: 0px;
+      margin: 0px;
+      margin-left: 3.1%;
       height: 180px;
       float: left;
-      width: 100%;
-    }
-    .dose:hover {
-      background: $oatbook-highlight;
-    }
-    .dose.missed {
-      background: $red;
-    }
-    .dose.missed:hover {
-      background: $red-darker;
-    }
 
-    label {
-      width: 100%;
-      text-align: center;
-      margin-top: 2px;
+      .dose {
+        background: $oatbook;
+        border-radius: 4px;
+        float: left;
+        width: 100%;
+      }
+      .dose:hover {
+        background: $oatbook-highlight;
+      }
+      .dose.missed {
+        background: $red;
+      }
+      .dose.missed:hover {
+        background: $red-darker;
+      }
+      .dose.h-100{
+        height: 100%;
+      }
+      .dose.h-90 {
+        height: 90%;
+        margin-top: 18px;
+      }
+
+      label {
+        width: 100%;
+        text-align: center;
+        margin-top: 2px;
+      }
+    }
+    .weeklyDosages li:first-child {
+      margin-left: 0%;
     }
   }
-  .weeklyDosages li:first-child {
-    margin-left: 0%;
-  }
-
 }
-
 
 // Report Card
 #reportCardModal {
@@ -91,7 +104,6 @@
     margin-top: 40px;
   }
   .weeklyDosages li .dose {
-    height: 200px;
   }
   .stats {
     margin-bottom: 40px;
