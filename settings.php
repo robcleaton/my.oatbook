@@ -7,6 +7,8 @@ $pageTitle = "Settings";
   ?>
 
   <div class="container">
+    <div class="col-sm-8 col-md-offset-2">
+
     <table class="table">
       <h1>Email alerts</h1>
       <p class="lead">Stay up-to-date or keep your close ones informed.</p>
@@ -100,6 +102,7 @@ $pageTitle = "Settings";
 
       <button type="button" class="btn btn-primary">Save changes</button>
 
+    </div>
   </div><!-- /container -->
 
 <?php include 'includes/footer.php'; ?>

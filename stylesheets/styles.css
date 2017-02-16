@@ -5817,12 +5817,22 @@ button.close {
   outline: 0 none !important; }
 
 body {
+  background: #fffef2;
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
 .btn {
   border-radius: 18px;
   padding: 8px 18px; }
+
+.hide {
+  display: none; }
+
+.container.page {
+  background: #fff;
+  border: 1px solid #eeeeee;
+  border-radius: 10px;
+  margin-top: 20px; }
 
 .message {
   position: fixed;
@@ -5849,56 +5859,59 @@ body {
   right: 8px;
   color: #777777; }
 
-.navbar .dropdown.user {
-  margin-left: -15px;
-  padding: 6px 6px 8px 6px;
-  float: left; }
-  .navbar .dropdown.user p.username {
-    margin: 5px 5px 0px 0px;
+.navbar {
+  background: #fff; }
+  .navbar .dropdown.user {
+    margin-left: -15px;
+    padding: 6px 6px 8px 6px;
     float: left; }
-  .navbar .dropdown.user a {
-    color: #777777; }
-  .navbar .dropdown.user .btn {
-    padding: 8px 10px; }
-  .navbar .dropdown.user .caret {
-    margin-top: 10px;
-    border-left: 6px solid transparent;
-    border-right: 6px solid transparent;
-    border-top: 6px solid #777777; }
-  .navbar .dropdown.user a.myaccount {
-    background: url("../assets/images/icons/icon-myaccount.svg") 12px 17px no-repeat;
-    background-size: 20px;
-    padding-left: 44px; }
-  .navbar .dropdown.user a.settings {
-    background: url("../assets/images/icons/icon-setting.svg") 12px 17px no-repeat;
-    background-color: inherit;
-    background-size: 20px;
-    padding-left: 44px; }
-  .navbar .dropdown.user a.myaccount:hover, .navbar .dropdown.user a.settings:hover {
-    background-color: red; }
-.navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
-  background-color: #ffd739; }
-.navbar .dropdown.user:hover {
-  background-color: #ffd739; }
-  .navbar .dropdown.user:hover .caret {
-    color: #fff !important;
-    border-top: 6px solid #fff; }
-.navbar h1.oatbook-logo {
-  background: #ffd739;
-  position: absolute;
-  width: 55px;
-  height: 55px;
-  left: 50%;
-  top: 0;
-  margin: 0;
-  padding: 0;
-  margin-left: -25px;
-  text-indent: -100000px; }
-.navbar li a {
-  padding-top: 18px;
-  padding-bottom: 18px; }
-.navbar .reportCard {
-  margin: 10px; }
+    .navbar .dropdown.user p.username {
+      margin: 5px 5px 0px 0px;
+      float: left; }
+    .navbar .dropdown.user a {
+      color: #777777; }
+    .navbar .dropdown.user .btn {
+      padding: 8px 10px; }
+    .navbar .dropdown.user .caret {
+      margin-top: 10px;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #777777; }
+    .navbar .dropdown.user a.myaccount {
+      background: url("../assets/images/icons/icon-myaccount.svg") 12px 17px no-repeat;
+      background-size: 20px;
+      padding-left: 44px; }
+    .navbar .dropdown.user a.settings {
+      background: url("../assets/images/icons/icon-setting.svg") 12px 17px no-repeat;
+      background-color: inherit;
+      background-size: 20px;
+      padding-left: 44px; }
+    .navbar .dropdown.user a.myaccount:hover, .navbar .dropdown.user a.settings:hover {
+      background-color: #f5f5f5; }
+  .navbar .nav > li > a:hover, .navbar .nav > li > a:focus {
+    background-color: #ffd739; }
+  .navbar .dropdown.user:hover {
+    background-color: #ffd739; }
+    .navbar .dropdown.user:hover .caret {
+      color: #fff !important;
+      border-top: 6px solid #fff; }
+  .navbar h1.oatbook-logo {
+    background: #ffd739;
+    position: absolute;
+    width: 56px;
+    height: 56px;
+    left: 50%;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    margin-left: -28px;
+    text-indent: -100000px; }
+  .navbar li a {
+    padding-top: 18px;
+    padding-bottom: 18px; }
+  .navbar .reportCard {
+    margin: 10px;
+    margin-bottom: 8px; }
 
 .user:before {
   content: '';
@@ -5960,21 +5973,72 @@ body {
   .checkbox-block b {
     color: #E36539; }
 
+.jumbotron.account {
+  background: #ffd739; }
+  .jumbotron.account .user:before {
+    background: url("../assets/images/avatar.jpg") 0 0 no-repeat;
+    background-size: 96px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    position: absolute;
+    left: 50%;
+    margin-left: -50px;
+    margin-top: -10px;
+    border: 4px solid #fff; }
+
+h1.oatbook {
+  background: url("../assets/images/icons/oatbook-badge.svg") 0px 0px no-repeat !important;
+  display: block;
+  height: 230px;
+  width: 230px;
+  text-indent: -20000%;
+  margin-bottom: 40px;
+  margin-top: -150px; }
+
 #inputEmail1 {
   background: #fff url("../assets/images/icons/icon-myaccount.svg") 8px 8px no-repeat !important;
-  background-size: 4px;
-  padding-left: 25px; }
+  padding-left: 30px; }
 
 #inputPassword1 {
-  background: #fff url("../assets/images/icons/icon-INR.svg") 8px 8px no-repeat !important;
-  background-size: 4px;
-  padding-left: 25px; }
+  background: #fff url("../assets/images/icons/icon-lock.svg") 8px 8px no-repeat !important;
+  padding-left: 30px; }
 
-footer p {
-  color: #777777; }
+footer {
+  margin: 80px 0px; }
+  footer p {
+    color: #777777; }
+
+.footer-alpha {
+  position: fixed;
+  background: #ffd739;
+  bottom: 0px;
+  width: 100%;
+  margin: 0px;
+  border: none;
+  border-radius: 0px;
+  z-index: 100; }
+  .footer-alpha .close {
+    opacity: 0.8;
+    font-size: 28px; }
+  .footer-alpha h4 {
+    display: block;
+    float: left;
+    margin: 0px 10px; }
+  .footer-alpha p {
+    line-height: 26px; }
+  .footer-alpha .alpha {
+    background: #000; }
 
 .graph {
-  height: 350px; }
+  height: 350px;
+  margin-bottom: 0px; }
+
+.container-fluid.stats {
+  background: #fff;
+  border-bottom: 1px solid #eeeeee;
+  padding-bottom: 30px;
+  padding-top: 30px; }
 
 .stats h2 {
   font-size: 68px; }

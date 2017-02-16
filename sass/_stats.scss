@@ -1,8 +1,15 @@
 
 .graph {
   height: 350px;
+  margin-bottom: 0px;
 }
 // Stats
+.container-fluid.stats {
+  background: #fff;
+  border-bottom: 1px solid $gray-lighter;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
 .stats {
   h2 {
     font-size: 68px;

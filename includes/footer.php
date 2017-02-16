@@ -7,7 +7,7 @@
     <div class="row">
       <div class="center-block">
         <h4 class="text-center">OATBook</h4>
-        <p class="text-center">&copy; 2017 OATBook</p>
+        <p class="text-center">&copy; <?php echo date("Y"); ?> OATBook</p>
         <ul class="list-inline text-center">
           <li><a href="/">Home</a></li>
           <li><a href="about.php">About</a></li>

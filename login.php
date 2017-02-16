@@ -3,11 +3,21 @@ $pageTitle = "Login";
   include 'includes/header.php'; ?>
 
 <style>
-  body {
-    background: rgba(255, 215, 58, 0.71);
-    margin: 0px;
-    padding: 0px;
-  }
+body {
+  background: rgba(255, 215, 58, 0.71);
+  padding: 0px;
+}
+
+  /*
+    .container {
+    background: url('/assets/images/bg.jpg') center center no-repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }*/
+
   .navbar, footer {
     display: none;
   }
@@ -34,7 +44,7 @@ $pageTitle = "Login";
 
     <div class="row vertical-center">
       <div class="col-sm-4 col-sm-offset-4">
-        <h1 class="text-center">OATBook</h1>
+        <h1 class="oatbook center-block">OATBook</h1>
 
         <form action="/">
           <div class="form-group">

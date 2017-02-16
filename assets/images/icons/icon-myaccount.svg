@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="15px" height="16px" viewBox="0 0 15 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <!-- Generator: Sketch 40.2 (33826) - http://www.bohemiancoding.com/sketch -->
     <title>account</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-        <g id="account" transform="translate(2.000000, 2.000000)" stroke="#000000" stroke-width="3">
-            <path d="M13.6025,0.245614035 C17.5435,0.245614035 20.738,3.38407018 20.738,7.25592982 C20.738,11.1277895 17.5435,14.2662456 13.6025,14.2662456 C9.6615,14.2662456 6.467,11.1277895 6.467,7.25592982 C6.467,3.38407018 9.6615,0.245614035 13.6025,0.245614035 L13.6025,0.245614035 Z" id="Stroke-1"></path>
-            <path d="M26.955,27.8752281 C26.955,20.3609123 20.9755,14.2667368 13.6035,14.2667368 C6.2285,14.2667368 0.25,20.3609123 0.25,27.8752281" id="Stroke-3"></path>
+        <g id="account" transform="translate(1.000000, 1.000000)" stroke="#000000" stroke-width="2">
+            <path d="M6.54935185,0.122807018 C8.44687037,0.122807018 9.98496296,1.69203509 9.98496296,3.62796491 C9.98496296,5.56389474 8.44687037,7.13312281 6.54935185,7.13312281 C4.65183333,7.13312281 3.11374074,5.56389474 3.11374074,3.62796491 C3.11374074,1.69203509 4.65183333,0.122807018 6.54935185,0.122807018 L6.54935185,0.122807018 Z" id="Stroke-1"></path>
+            <path d="M12.9783333,13.937614 C12.9783333,10.1804561 10.0993148,7.13336842 6.54983333,7.13336842 C2.99890741,7.13336842 0.12037037,10.1804561 0.12037037,13.937614" id="Stroke-3"></path>
         </g>
     </g>
 </svg>

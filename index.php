@@ -8,14 +8,16 @@ $pageTitle = "Home";
 
   <!-- Graph -->
   <div class="jumbotron graph">
-    <div class="container">
+    <div class="container-fluid">
       This is the graph area...
     </div>
   </div><!-- /jumbotron -->
 
+
+<div class="container-fluid stats">
   <div class="container">
     <!-- Stats -->
-    <div class="row stats">
+    <div class="row">
 
       <!-- Previous reading -->
       <div class="col-md-4 previousRead">
@@ -46,8 +48,10 @@ $pageTitle = "Home";
       </div>
 
     </div><!-- /stats -->
+  </div>
+</div>
 
-
+  <div class="container page">
     <table class="table">
       <h2>Since your last test</h2>
 

@@ -4,16 +4,16 @@ $pageTitle = "My account";
   include 'includes/report-card.php';
   include 'includes/support.php'; ?>
 
-
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
-        Big yellow header
-      </div>
+  <div class="jumbotron account">
+    <div class="container">
+      <span class="user"></span>
     </div>
+  </div><!-- /jumbotron -->
+
+  <div class="container page">
 
     <div class="row">
-      <div class="col-sm-10">
+      <div class="col-sm-8 col-sm-offset-2">
         <h1>My account</h1>
 
         <table class="table">
