@@ -5821,9 +5821,14 @@ body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
+a {
+  color: #000;
+  transition: all 0.5s ease 0s; }
+
 .btn {
   border-radius: 18px;
-  padding: 8px 18px; }
+  padding: 8px 18px;
+  transition: all 0.3s ease 0s; }
 
 .hide {
   display: none; }
@@ -5896,16 +5901,19 @@ body {
       color: #fff !important;
       border-top: 6px solid #fff; }
   .navbar h1.oatbook-logo {
-    background: #ffd739;
+    background: url("../assets/images/icons/oatbook-icon.png") 0px 0px no-repeat;
     position: absolute;
-    width: 56px;
-    height: 56px;
+    width: 36px;
+    height: 36px;
     left: 50%;
     top: 0;
     margin: 0;
     padding: 0;
     margin-left: -28px;
-    text-indent: -100000px; }
+    text-indent: -100000px;
+    margin-top: 10px; }
+  .navbar h1.oatbook-logo:hover {
+    background: url("../assets/images/icons/oatbook-icon.png") 0px -36px no-repeat; }
   .navbar li a {
     padding-top: 18px;
     padding-bottom: 18px; }
@@ -6008,6 +6016,15 @@ footer {
   margin: 80px 0px; }
   footer p {
     color: #777777; }
+  footer h4.oatbook {
+    background: url("../assets/images/icons/oatbook-icon.png") -30px 0px no-repeat;
+    background-size: 60px;
+    height: 30px;
+    width: 30px;
+    text-indent: -30000%; }
+  footer h4.oatbook:hover {
+    background: url("../assets/images/icons/oatbook-icon.png") -30px -30px no-repeat;
+    background-size: 60px; }
 
 .footer-alpha {
   position: fixed;
@@ -6029,8 +6046,12 @@ footer {
     line-height: 26px; }
   .footer-alpha .alpha {
     background: #000; }
+  .footer-alpha a {
+    color: #000; }
 
 .graph {
+  background: url("/assets/images/chart-big.png") center center no-repeat;
+  background-size: cover;
   height: 350px;
   margin-bottom: 0px; }
 
@@ -6099,7 +6120,9 @@ footer {
     margin-left: 0%; }
 
 #reportCardModal .graph {
-  height: 250px; }
+  height: 250px;
+  padding: 0px;
+  margin-bottom: 30px; }
 #reportCardModal .weeklyDosages {
   margin-top: 40px; }
 #reportCardModal .stats {

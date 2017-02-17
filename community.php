@@ -6,7 +6,7 @@ $pageTitle = "Community";
   include 'includes/newPost.php'; ?>
 
 
-  <div class="container">
+  <div class="container page">
 
     <div class="row">
       <h1>Community</h1>

@@ -1,5 +1,7 @@
 
 .graph {
+  background: url('/assets/images/chart-big.png') center center no-repeat;
+  background-size: cover;
   height: 350px;
   margin-bottom: 0px;
 }
@@ -106,6 +108,8 @@
 #reportCardModal {
   .graph {
     height: 250px;
+    padding: 0px;
+    margin-bottom: 30px;
   }
   .weeklyDosages {
     margin-top: 40px;

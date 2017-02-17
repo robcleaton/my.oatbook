@@ -11,6 +11,7 @@ $oatbook : #ffd739;
 $oatbook-light : #fffef2;
 $oatbook-highlight : #FFB906;
 $white : #fff;
+$black : #000;
 $red : #E36539;
 $red-darker : #c5471b;
 
@@ -26,9 +27,14 @@ body {
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px;
 }
+a {
+  color: $black;
+  transition: all 0.5s ease 0s;
+}
 .btn {
   border-radius: 18px;
   padding: 8px 18px;
+  transition: all 0.3s ease 0s;
 }
 .hide {
   display: none;
@@ -125,16 +131,20 @@ body {
     }
   }
   h1.oatbook-logo {
-    background: $oatbook;
+    background: url('../assets/images/icons/oatbook-icon.png') 0px 0px no-repeat;
     position: absolute;
-    width: 56px;
-    height: 56px;
+    width: 36px;
+    height: 36px;
     left: 50%;
     top: 0;
     margin: 0;
     padding: 0;
     margin-left: -28px;
     text-indent: -100000px;
+    margin-top: 10px;
+  }
+  h1.oatbook-logo:hover {
+    background: url('../assets/images/icons/oatbook-icon.png') 0px -36px no-repeat;
   }
   li a {
     padding-top: 18px;
@@ -274,6 +284,17 @@ footer {
   p {
     color: $gray-light;
   }
+  h4.oatbook {
+    background: url('../assets/images/icons/oatbook-icon.png') -30px 0px no-repeat;
+    background-size: 60px;
+    height: 30px;
+    width: 30px;
+    text-indent: -30000%;
+  }
+  h4.oatbook:hover {
+    background: url('../assets/images/icons/oatbook-icon.png') -30px -30px no-repeat;
+    background-size: 60px;
+  }
 }
 .footer-alpha {
   position: fixed;
@@ -298,5 +319,8 @@ footer {
   }
   .alpha {
     background: #000;
+  }
+  a {
+    color: $black;
   }
 }

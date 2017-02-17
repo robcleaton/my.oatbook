@@ -9,11 +9,9 @@
       <div class="modal-body">
 
           <!-- Graph -->
-          <div class="jumbotron graph">
-            <div class="container">
-              This is the graph area...
-            </div>
-          </div><!-- /jumbotron -->
+          <div class="container graph">
+            <img src="/assets/images/chart-report.png" alt="INR readings">
+          </div><!-- /graph -->
 
           <!-- Stats -->
           <div class="row stats">

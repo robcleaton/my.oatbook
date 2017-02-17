@@ -9,7 +9,6 @@ $pageTitle = "Home";
   <!-- Graph -->
   <div class="jumbotron graph">
     <div class="container-fluid">
-      This is the graph area...
     </div>
   </div><!-- /jumbotron -->
 

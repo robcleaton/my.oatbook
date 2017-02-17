@@ -6,7 +6,7 @@
   <footer class="container-fluid">
     <div class="row">
       <div class="center-block">
-        <h4 class="text-center">OATBook</h4>
+        <a href="/"><h4 class="oatbook center-block">OATBook</h4></a>
         <p class="text-center">&copy; <?php echo date("Y"); ?> OATBook</p>
         <ul class="list-inline text-center">
           <li><a href="/">Home</a></li>
