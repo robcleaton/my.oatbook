@@ -4,6 +4,7 @@ $pageTitle = "Landing";
 
   <style>
     body {
+      background: rgba(255, 215, 58, 0.71);
       padding: 0px;
     }
     .navbar {

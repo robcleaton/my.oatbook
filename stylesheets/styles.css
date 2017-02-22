@@ -253,8 +253,8 @@ th {
     border: 1px solid #ddd !important; } }
 @font-face {
   font-family: 'Glyphicons Halflings';
-  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../assets/fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../assets/fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot");
+  src: url("../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
 .glyphicon {
   position: relative;
   top: 1px;
@@ -5817,7 +5817,7 @@ button.close {
   outline: 0 none !important; }
 
 body {
-  background: #fffef2;
+  /* background: $oatbook-light; */
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
@@ -5838,6 +5838,10 @@ a {
   border: 1px solid #eeeeee;
   border-radius: 10px;
   margin-top: 20px; }
+
+p {
+  font-size: 16px;
+  line-height: 24px; }
 
 .message {
   position: fixed;
@@ -5870,7 +5874,7 @@ a {
     margin-left: -15px;
     padding: 6px 6px 8px 6px;
     float: left; }
-    .navbar .dropdown.user p.username {
+    .navbar .dropdown.user .username {
       margin: 5px 5px 0px 0px;
       float: left; }
     .navbar .dropdown.user a {
@@ -6048,6 +6052,14 @@ footer {
     background: #000; }
   .footer-alpha a {
     color: #000; }
+
+.panel-default {
+  border: none; }
+  .panel-default .panel-heading {
+    background: none;
+    padding: 25px 15px; }
+  .panel-default .panel-title {
+    font-size: 20px; }
 
 .graph {
   background: url("/assets/images/chart-big.png") center center no-repeat;

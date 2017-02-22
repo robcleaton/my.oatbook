@@ -3,8 +3,7 @@ $pageTitle = "Settings";
   include 'includes/header.php';
   include 'includes/report-card.php';
   include 'includes/support.php';
-  include 'includes/emailNotifications.php';
-  ?>
+  include 'includes/modals.php'; ?>
 
   <div class="container">
     <div class="col-sm-8 col-md-offset-2">

@@ -14,7 +14,7 @@
 
         <div class="dropdown user">
           <button class="btn btn-link dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-            <a href="/"><p class="username hidden-xs hidden-sm">Rob Cleaton</p></a>
+            <a href="/"><span class="username hidden-xs hidden-sm">Rob Cleaton</span></a>
             <span class="caret"></span>
           </button>
           <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">

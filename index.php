@@ -4,7 +4,7 @@ $pageTitle = "Home";
   include 'includes/report-card.php';
   include 'includes/support.php';
   include 'includes/welcome.php';
-  include 'includes/emailNotifications.php'; ?>
+  include 'includes/modals.php'; ?>
 
   <!-- Graph -->
   <div class="jumbotron graph">

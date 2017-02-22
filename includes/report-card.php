@@ -9,7 +9,7 @@
       <div class="modal-body">
 
           <!-- Graph -->
-          <div class="container graph">
+          <div class="container graph" style="background: none;">
             <img src="/assets/images/chart-report.png" alt="INR readings">
           </div><!-- /graph -->
 
@@ -106,8 +106,8 @@
           </button>
           <ul class="dropdown-menu">
             <li><a href="#" data-toggle="modal" data-target="#shareEmailModal">Share private link</a></li>
-            <li><a href="#">Email report</a></li>
-            <li><a href="#">Download report</a></li>
+            <li><a href="#shareEmailModal" data-toggle="modal" data-dismiss="modal">Email report</a></li>
+            <li><a href="#downloadReportModal" data-toggle="modal" data-dismiss="modal">Download report</a></li>
           </ul>
         </div>
       </div>

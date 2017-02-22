@@ -3,7 +3,8 @@ $pageTitle = "Community";
   include 'includes/header.php';
   include 'includes/report-card.php';
   include 'includes/support.php';
-  include 'includes/newPost.php'; ?>
+  include 'includes/newPost.php';
+  include 'includes/modals.php'; ?>
 
 
   <div class="container page">

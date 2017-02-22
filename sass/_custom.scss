@@ -23,7 +23,7 @@ $red-darker : #c5471b;
 }
 
 body {
-  background: $oatbook-light;
+  /* background: $oatbook-light; */
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px;
 }
@@ -45,6 +45,11 @@ a {
   border-radius: 10px;
   margin-top: 20px;
 }
+p {
+  font-size: 16px;
+  line-height: 24px;
+}
+
 
 // Notification banner
 .message {
@@ -88,7 +93,7 @@ a {
     padding: 6px 6px 8px 6px;
     float: left;
 
-    p.username {
+    .username {
       margin: 5px 5px 0px 0px;
       float: left;
     }
@@ -322,5 +327,18 @@ footer {
   }
   a {
     color: $black;
+  }
+}
+
+// Accordion
+.panel-default {
+  border: none;
+
+  .panel-heading {
+    background: none;
+    padding: 25px 15px;
+  }
+  .panel-title {
+    font-size: 20px;
   }
 }

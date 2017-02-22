@@ -2,7 +2,8 @@
 $pageTitle = "My account";
   include 'includes/header.php';
   include 'includes/report-card.php';
-  include 'includes/support.php'; ?>
+  include 'includes/support.php';
+  include 'includes/modals.php'; ?>
 
   <div class="jumbotron account">
     <div class="container">
