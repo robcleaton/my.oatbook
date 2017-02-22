@@ -1,10 +1,6 @@
 <?php
 $pageTitle = "Home";
-  include 'includes/header.php';
-  include 'includes/report-card.php';
-  include 'includes/support.php';
-  include 'includes/welcome.php';
-  include 'includes/modals.php'; ?>
+  include 'includes/header.php'; ?>
 
   <!-- Graph -->
   <div class="jumbotron graph">

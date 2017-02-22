@@ -1,13 +1,9 @@
 <?php
 $pageTitle = "Community";
-  include 'includes/header.php';
-  include 'includes/report-card.php';
-  include 'includes/support.php';
-  include 'includes/newPost.php';
-  include 'includes/modals.php'; ?>
+  include 'includes/header.php'; ?>
 
 
-  <div class="container page">
+  <div class="container">
 
     <div class="row">
       <h1>Community</h1>

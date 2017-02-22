@@ -1,4 +1,3 @@
-<!-- Modal 2 -->
 <div class="modal fade" id="reportCardModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
   <div class="modal-dialog" role="document">
     <div class="modal-content">
@@ -105,7 +104,7 @@
             Share <span class="caret"></span>
           </button>
           <ul class="dropdown-menu">
-            <li><a href="#" data-toggle="modal" data-target="#shareEmailModal">Share private link</a></li>
+            <li><a href="#shareReportModal" data-toggle="modal" data-dismiss="modal">Share link to report</a></li>
             <li><a href="#shareEmailModal" data-toggle="modal" data-dismiss="modal">Email report</a></li>
             <li><a href="#downloadReportModal" data-toggle="modal" data-dismiss="modal">Download report</a></li>
           </ul>
@@ -113,4 +112,4 @@
       </div>
     </div>
   </div>
-</div><!-- /Modal 2 -->
+</div>

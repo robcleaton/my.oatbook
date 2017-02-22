@@ -1,9 +1,6 @@
 <?php
 $pageTitle = "My account";
-  include 'includes/header.php';
-  include 'includes/report-card.php';
-  include 'includes/support.php';
-  include 'includes/modals.php'; ?>
+  include 'includes/header.php'; ?>
 
   <div class="jumbotron account">
     <div class="container">
@@ -11,7 +8,7 @@ $pageTitle = "My account";
     </div>
   </div><!-- /jumbotron -->
 
-  <div class="container page">
+  <div class="container">
 
     <div class="row">
       <div class="col-sm-8 col-sm-offset-2">

@@ -20,4 +20,10 @@
   </head>
   <body>
 
-  <?php include'navBar.php'; ?>
+  <?php
+    include'navBar.php';
+    include 'includes/report-card.php';
+    include 'includes/support.php';
+    include 'includes/newPost.php';
+    include 'includes/support.php';
+    include 'includes/modals.php'; ?>
