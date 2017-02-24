@@ -24,6 +24,7 @@ $red-darker : #c5471b;
 
 body {
   /* background: $oatbook-light; */
+  background-color: #ececec;
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px;
 }
@@ -82,6 +83,7 @@ p {
 
 .navbar {
   background: $white;
+  border-color: #ececec;
   .dropdown.user {
     margin-left: -15px;
     padding: 6px 6px 8px 6px;
@@ -266,14 +268,30 @@ h1.oatbook {
   margin-bottom: 40px;
   margin-top: -150px;
 }
-#inputEmail1 {
-  background: #fff url('../assets/images/icons/icon-myaccount.svg') 8px 8px no-repeat !important;
-  padding-left: 30px;
+.login {
+  #inputEmail1 {
+    background: #fff url('../assets/images/icons/icon-myaccount.svg') 28px 18px no-repeat !important;
+    padding-left: 60px;
+    border-radius: 26px;
+    height: 54px;
+    border: none;
+    font-size: 16px;
+  }
+  #inputPassword1 {
+    background: #fff url('../assets/images/icons/icon-lock.svg') 28px 18px no-repeat !important;
+    padding-left: 60px;
+    border-radius: 26px;
+    height: 54px;
+    border: none;
+    font-size: 16px;
+  }
+  button {
+    height: 54px;
+    border-radius: 26px;
+    font-size: 16px;
+  }
 }
-#inputPassword1 {
-  background: #fff url('../assets/images/icons/icon-lock.svg') 8px 8px no-repeat !important;
-  padding-left: 30px;
-}
+
 
 
 
@@ -325,14 +343,29 @@ footer {
 }
 
 // Accordion
-.panel-default {
-  border: none;
+#accordion {
+  margin-top: 4rem;
 
-  .panel-heading {
-    background: none;
-    padding: 25px 15px;
-  }
-  .panel-title {
-    font-size: 20px;
+  .panel-default {
+    border: none;
+    a {
+      border-bottom: 2px solid $oatbook;
+      text-decoration: none;
+      transition: all 0.1s ease 0.1s;
+    }
+    a:hover {
+      border-bottom: 4px solid $oatbook;
+    }
+    p {
+      line-height: 32px;
+      margin: 0 0 28px;
+    }
+    .panel-heading {
+      background: none;
+      padding: 25px 15px;
+    }
+    .panel-title {
+      font-size: 20px;
+    }
   }
 }

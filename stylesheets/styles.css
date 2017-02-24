@@ -5818,6 +5818,7 @@ button.close {
 
 body {
   /* background: $oatbook-light; */
+  background-color: #ececec;
   font-family: 'Varela Round', sans-serif;
   padding-top: 50px; }
 
@@ -5863,7 +5864,8 @@ p {
   color: #777777; }
 
 .navbar {
-  background: #fff; }
+  background: #fff;
+  border-color: #ececec; }
   .navbar .dropdown.user {
     margin-left: -15px;
     padding: 6px 6px 8px 6px;
@@ -6002,13 +6004,24 @@ h1.oatbook {
   margin-bottom: 40px;
   margin-top: -150px; }
 
-#inputEmail1 {
-  background: #fff url("../assets/images/icons/icon-myaccount.svg") 8px 8px no-repeat !important;
-  padding-left: 30px; }
-
-#inputPassword1 {
-  background: #fff url("../assets/images/icons/icon-lock.svg") 8px 8px no-repeat !important;
-  padding-left: 30px; }
+.login #inputEmail1 {
+  background: #fff url("../assets/images/icons/icon-myaccount.svg") 28px 18px no-repeat !important;
+  padding-left: 60px;
+  border-radius: 26px;
+  height: 54px;
+  border: none;
+  font-size: 16px; }
+.login #inputPassword1 {
+  background: #fff url("../assets/images/icons/icon-lock.svg") 28px 18px no-repeat !important;
+  padding-left: 60px;
+  border-radius: 26px;
+  height: 54px;
+  border: none;
+  font-size: 16px; }
+.login button {
+  height: 54px;
+  border-radius: 26px;
+  font-size: 16px; }
 
 footer {
   margin: 80px 0px; }
@@ -6047,13 +6060,24 @@ footer {
   .footer-alpha a {
     color: #000; }
 
-.panel-default {
-  border: none; }
-  .panel-default .panel-heading {
-    background: none;
-    padding: 25px 15px; }
-  .panel-default .panel-title {
-    font-size: 20px; }
+#accordion {
+  margin-top: 4rem; }
+  #accordion .panel-default {
+    border: none; }
+    #accordion .panel-default a {
+      border-bottom: 2px solid #ffd739;
+      text-decoration: none;
+      transition: all 0.1s ease 0.1s; }
+    #accordion .panel-default a:hover {
+      border-bottom: 4px solid #ffd739; }
+    #accordion .panel-default p {
+      line-height: 32px;
+      margin: 0 0 28px; }
+    #accordion .panel-default .panel-heading {
+      background: none;
+      padding: 25px 15px; }
+    #accordion .panel-default .panel-title {
+      font-size: 20px; }
 
 .graph {
   background: url("/assets/images/chart-big.png") center center no-repeat;
