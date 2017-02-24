@@ -9,6 +9,17 @@ $pageTitle = "Settings";
       <h1>Email alerts</h1>
       <p class="lead">Stay up-to-date or keep your close ones informed.</p>
 
+      <form role="form">
+        ...
+        <div class="checkbox">
+          <input type="checkbox" id="checkbox1">
+          <label for="checkbox1">
+              Check me out
+          </label>
+        </div>
+        ...
+      </form>
+
       <!-- Appointments -->
       <div class="row checkbox-block">
         <div class="col-xs-12 checkbox">

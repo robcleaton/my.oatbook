@@ -6,7 +6,7 @@ $pageTitle = "Report of Rob Cleaton";
 <style>
   body {
     background: rgba(255, 215, 58, 0.71);
-    padding-top: 60px;
+    padding-top: 40px;
   }
   .navbar {
     display: none;
@@ -28,6 +28,11 @@ $pageTitle = "Report of Rob Cleaton";
     background: url(../assets/images/icons/oatbook-icon.png) -36px -36px no-repeat !important;
     background-size: 30px;
   }
+  .form-control {
+    height: 48px;
+    border-radius: 24px;
+    border: none;
+  }
 </style>
 
 <div class="container" id="reportCardModal">
@@ -37,8 +42,8 @@ $pageTitle = "Report of Rob Cleaton";
     <div class="col-sm-6 col-sm-offset-3">
 
       <!-- Graph -->
-      <div class="container graph" style="background: none;">
-        <img src="/assets/images/chart-report.png" alt="INR readings">
+      <div class="container graph" style="background: none; padding: 0px; height: 200px;">
+        <img src="/assets/images/chart-report.png" alt="INR readings" style="width: 100%;">
       </div><!-- /graph -->
 
       <!-- Stats -->

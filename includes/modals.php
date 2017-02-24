@@ -53,7 +53,7 @@
       </div>
       <div class="modal-body">
         <div class="jumbotron">
-          <p class="text-center"><a href="HiG120Xdpie34" target="_blank">HiG120Xdpie34.php</a></p>
+          <p class="text-center"><a href="HiG120Xdpie34.php" target="_blank">myOATBook.co.uk/HiG120Xdpie34</a></p>
         </div>
 
         <form>
