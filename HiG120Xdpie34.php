@@ -42,7 +42,7 @@ $pageTitle = "Report of Rob Cleaton";
     <div class="col-sm-6 col-sm-offset-3">
 
       <!-- Graph -->
-      <div class="container graph" style="background: none; padding: 0px; height: 200px;">
+      <div class="container graph" style="background: none; padding: 0px; height: 250px;">
         <img src="/assets/images/chart-report.png" alt="INR readings" style="width: 100%;">
       </div><!-- /graph -->
 

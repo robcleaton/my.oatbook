@@ -166,6 +166,37 @@ $pageTitle = "About";
         </div>
       </div>
 
+      <!-- How do I add a different dosage for weekends? -->
+      <div class="panel panel-default">
+        <div class="panel-heading" role="tab" id="headingThree">
+          <h4 class="panel-title">
+            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseSix" aria-expanded="false" aria-controls="collapseThree">
+              How do I add a different dosage for weekends?
+            </a>
+          </h4>
+        </div>
+        <div id="collapseSix" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-sm-8">
+                <p>
+                  <ol>
+                    <li>Open the app and if you haven’t already set your previous testing date, note: it must be a past date and not a future date for it to work</li>
+                    <li>In the calendar view, tap that date and you’re see a set of four icons</li>
+                    <li>Tap the second one that looks like a pill</li>
+                    <li>You will be taken to the Your dosage screen, enter your first dosage of i.e.:10mg and tap Mon-Fri</li>
+                    <li>Tap the Add Alternate Dose button below</li>
+                    <li>Enter your second dose of i.e.: 11mg and tap the days Sat and Sun</li>
+                    <li>Tap the tick in the top right you you’ll notice the calendar automatically fill with the relevant dosages</li>
+                  </ol>
+                </p>
+                <p>Still having trouble? <a href="support">get in touch</a></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <!-- How do I add a new appointment? -->
       <div class="panel panel-default">
         <div class="panel-heading" role="tab" id="headingThree">
